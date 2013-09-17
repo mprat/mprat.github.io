@@ -1,0 +1,52 @@
+header{
+	background: red;
+	/*padding: 20px;*/
+	/*width: 100%;*/
+}
+
+h1{
+	/*padding: 10px;*/
+}
+
+h2{
+	/*padding: 10px;*/
+}
+
+h3{
+	padding: 10px;
+}
+
+.main{
+	margin-left: 100px;
+	margin-right: 200px;
+}
+
+#ext-links{
+	/*margin-left: 100px;*/
+	background: #aaa;
+	/*width: 15%;*/
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	padding-right: 25px;
+}
+
+.vert-strip{
+	float: left;
+	/*padding: 10px;*/
+	height: 500px; /*made-up number. FIX LATER!*/
+	width: 50%;
+}
+
+footer{
+	clear: both;
+}
+
+#travel{
+	background: #aa1;
+}
+
+#project{
+	background: #aaf;
+}
