@@ -16,6 +16,15 @@ h1{
 	margin: 20px 0 0 0;
 }
 
+.main-concept h1{
+	word-wrap: break-word;
+	text-align: center;
+	position: relative;
+	top: 35%;
+	margin: 0;
+	padding: 0;
+}
+
 h2{
 	padding: 2px 10px 10px 35px;
 	font: 16px/22px Garamond, serif; 
@@ -65,22 +74,9 @@ footer{
 	clear: both;
 }
 
-#travel{
-	background: #ADB5F1;
-	width: 40%;
-}
-
-#travel h3{
-	background: rgb(5, 16, 148);
-	color: rgb(226, 228, 248);
-}
-
-#project{
-	background: #AAB8A7;
-	width: 60%;
-}
-
-#project h3{
-	background: rgb(2, 109, 2);
-	color: rgb(193, 248, 204);
+.main-concept{
+	background: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%
 }
