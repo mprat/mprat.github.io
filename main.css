@@ -76,6 +76,7 @@ footer{
 }
 
 .main-concept, .project{
+	position: absolute;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -89,4 +90,19 @@ footer{
 
 .project{
 	background: blue;
+}
+
+#tech{
+	left: 0;
+	top: 0;
+}
+
+#art{
+	left: 400px;
+	top: 0;
+}
+
+#ed{
+	left: 0;
+	top: 400px;
 }
