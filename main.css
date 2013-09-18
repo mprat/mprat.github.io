@@ -98,11 +98,19 @@ footer{
 }
 
 #art{
-	left: 350px;
-	top: 250px;
+	left: 500px;
+	top: -50px;
 }
 
 #ed{
-	left: 500px;
-	top: -50px;
+	left: 400px;
+	top: 300px;
+}
+#terminus{
+	left: 250px;
+	top: 150px;
+}
+#meet{
+	left: 200px;
+	top: 200px;
 }
