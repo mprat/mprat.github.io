@@ -23,43 +23,43 @@ $(document).ready(function() {
 	// 		})
 
 	//randomly generate position for projects
-	var techobj = document.getElementById("tech");
-	var artobj = document.getElementById("art");
-	var edobj = document.getElementById("ed");
-	var ax = techobj.offsetLeft;
-	var ay = techobj.offsetTop;
-	var bx = artobj.offsetLeft;
-	var by = artobj.offsetTop;
-	var cx = edobj.offsetLeft;
-	var cy = edobj.offsetTop;
-	var triangle_center_x = (ax + bx + cx) / 2;
-	var triangle_center_y = (ay + by + cy) / 2;
-	var plus_or_minus = function(num){
-		var r = Math.random();
-		return -1*num*(r < 0.5) + num*(r > 0.5);
-	};
-	var add_center = function(proj, center){
-		$(proj).css("left", center.x);
-		$(proj).css("top", center.y);
-	};
-	var check_center = function(proj, center){
-		return ((Math.pow(projects[j].style.left - center.x, 2) + Math.pow(projects[j].style.top - center.y, 2)) > Math.pow(projects[j].width, 2))
-	};
-	var dist = function(x1, y1, x2, y2){
-		return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2))
-	};
+	// var techobj = document.getElementById("tech");
+	// var artobj = document.getElementById("art");
+	// var edobj = document.getElementById("ed");
+	// var ax = techobj.offsetLeft;
+	// var ay = techobj.offsetTop;
+	// var bx = artobj.offsetLeft;
+	// var by = artobj.offsetTop;
+	// var cx = edobj.offsetLeft;
+	// var cy = edobj.offsetTop;
+	// var triangle_center_x = (ax + bx + cx) / 2;
+	// var triangle_center_y = (ay + by + cy) / 2;
+	// var plus_or_minus = function(num){
+	// 	var r = Math.random();
+	// 	return -1*num*(r < 0.5) + num*(r > 0.5);
+	// };
+	// var add_center = function(proj, center){
+	// 	$(proj).css("left", center.x);
+	// 	$(proj).css("top", center.y);
+	// };
+	// var check_center = function(proj, center){
+	// 	return ((Math.pow(projects[j].style.left - center.x, 2) + Math.pow(projects[j].style.top - center.y, 2)) > Math.pow(projects[j].width, 2))
+	// };
+	// var dist = function(x1, y1, x2, y2){
+	// 	return Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2))
+	// };
 
-	var projects = document.getElementsByClassName("project");
-	for (var i = projects.length - 1; i >= 0; i--) {
-		projects[i].getAttribute("data-tech");
-		projects[i].getAttribute("data-art");
-		projects[i].getAttribute("data-ed");
-		if (i == projects.length - 1){
-			var test_center = {"x": triangle_center_x, "y": triangle_center_y};
-			// test_center.x += plus_or_minus(Math.random() * 40);
-			// test_center.y += plus_or_minus(Math.random() * 40);
-			add_center(projects[i], test_center);
-		} else {
+	// var projects = document.getElementsByClassName("project");
+	// for (var i = projects.length - 1; i >= 0; i--) {
+	// 	projects[i].getAttribute("data-tech");
+	// 	projects[i].getAttribute("data-art");
+	// 	projects[i].getAttribute("data-ed");
+	// 	if (i == projects.length - 1){
+	// 		var test_center = {"x": triangle_center_x, "y": triangle_center_y};
+	// 		// test_center.x += plus_or_minus(Math.random() * 40);
+	// 		// test_center.y += plus_or_minus(Math.random() * 40);
+	// 		add_center(projects[i], test_center);
+	// 	} else {
 			
 			// var test_center = {"x": triangle_center_x, "y": triangle_center_y};
 			// for (var j = projects.length - 1; j > i; j--) {
@@ -85,6 +85,15 @@ $(document).ready(function() {
 			// 	}
 			// };
 			// add_center(projects[i], test_center);
-		}
-	};
+	// 	}
+	// };
+
+
+	$('.project').click(function(){
+		$("#" + $(this).attr("id") +"-detail").toggle();
+	});
+
+	$('.main-concept').click(function(){
+		console.log($(this).attr("id"));
+	});
 });
