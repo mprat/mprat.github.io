@@ -126,7 +126,7 @@ li{
 }
 
 .close-btn{
-	background: blue;
+	background: #202020;
 	/*position: absolute;*/
 	float: right;
 	z-index: 3;
