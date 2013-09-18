@@ -11,7 +11,7 @@ header{
 
 h1{
 	padding: 10px 10px 0 0;
-	font-style: 'Lucida Grande', 'Lucida Sans', Lucida, sans-serif; 
+	font-family: 'Lucida Grande', 'Lucida Sans', Lucida, sans-serif; 
 	letter-spacing: .1em;
 	margin: 20px 0 0 0;
 }
@@ -94,15 +94,15 @@ footer{
 
 #tech{
 	left: 0;
-	top: 0;
+	top: 100px;
 }
 
 #art{
-	left: 400px;
-	top: 0;
+	left: 350px;
+	top: 250px;
 }
 
 #ed{
-	left: 0;
-	top: 400px;
+	left: 500px;
+	top: -50px;
 }
