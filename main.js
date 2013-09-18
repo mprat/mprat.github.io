@@ -88,13 +88,13 @@ $(document).ready(function() {
 	// 	}
 	// };
 
-	$(".project-detail").hide();
-	$(".detail-container").hide();
+	//initially hide all project details so you can toggle their display later
+	$(".detail-display").hide();
 
 	$('.project').click(function(){
 		$("#" + $(this).attr("id") +"-detail").toggle();
 		$(".detail-container").toggle();
-		$(".home-display").hide();
+		$(".home-container").hide();
 	});
 
 	$('.main-concept').click(function(){
@@ -102,8 +102,7 @@ $(document).ready(function() {
 	});
 
 	$('.close-btn').click(function(){
-		$('.detail-container').hide();
-		$('.project-detail').hide();
-		$(".home-display").show();
+		$('.detail-display').hide();
+		$(".home-container").show();
 	});
 });
