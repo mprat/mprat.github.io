@@ -94,15 +94,23 @@ footer{
 
 #tech{
 	left: 0;
-	top: 0;
+	top: 100px;
 }
 
 #art{
-	left: 400px;
-	top: 0;
+	left: 500px;
+	top: -50px;
 }
 
 #ed{
-	left: 0;
-	top: 400px;
+	left: 400px;
+	top: 300px;
+}
+#terminus{
+	left: 250px;
+	top: 150px;
+}
+#meet{
+	left: 200px;
+	top: 200px;
 }
