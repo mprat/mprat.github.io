@@ -88,12 +88,22 @@ $(document).ready(function() {
 	// 	}
 	// };
 
+	$(".project-detail").hide();
+	$(".detail-container").hide();
 
 	$('.project').click(function(){
 		$("#" + $(this).attr("id") +"-detail").toggle();
+		$(".detail-container").toggle();
+		$(".home-display").hide();
 	});
 
 	$('.main-concept').click(function(){
 		console.log($(this).attr("id"));
+	});
+
+	$('.close-btn').click(function(){
+		$('.detail-container').hide();
+		$('.project-detail').hide();
+		$(".home-display").show();
 	});
 });
