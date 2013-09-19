@@ -42,7 +42,7 @@ h2{
 }
 
 h3{
-	padding: 30px;
+	padding: 20px;
 	font-weight: bold;
 	font-size: 16px;
 	margin: 0;
@@ -129,10 +129,13 @@ li{
 	list-style: none;
 }
 
-.close-btn{
-	background: #202020;
-	/*position: absolute;*/
+button{
+	background: #777777;
+	position: relative;
 	float: right;
 	z-index: 3;
 	cursor: pointer;
+	border-radius: 5%;
+	text-align: center;
+	border:1px solid #dcdcdc;
 }
