@@ -101,7 +101,7 @@ $(document).ready(function() {
 		console.log($(this).attr("id"));
 	});
 
-	$('.close-btn').click(function(){
+	$('.home-btn').click(function(){
 		$('.detail-display').hide();
 		$(".home-container").show();
 	});
