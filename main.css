@@ -91,7 +91,7 @@ footer{
 }
 
 .main-concept{
-	background: #F09292;
+	background: #FFBAB7;
 	-webkit-transform: scale(.85);
        -moz-transform: scale(.85);
          -o-transform: scale(.85);
@@ -99,12 +99,12 @@ footer{
 }
 
 .project{
-	background: #7474E2;
-	background: -webkit-linear-gradient(#7474E2, #474788);
+	background: #5D8BB2;
+/*	background: -webkit-linear-gradient(#7474E2, #474788);
 	background:    -moz-linear-gradient(#7474E2, #474788);
 	background:     -ms-linear-gradient(#7474E2, #474788);
 	background:      -o-linear-gradient(#7474E2, #474788);
-	background:         linear-gradient(#7474E2, #474788);
+	background:         linear-gradient(#7474E2, #474788);*/
 	cursor: pointer;
 }
 
@@ -112,7 +112,9 @@ footer{
 	position: absolute;
 	width: 600px;
 	height: 500px;
-	background: #A0AFD4;
+	/*background: #9ED2FF;*/
+	/*background: #5D8BB2;*/
+	background: #4B708F;
 	border-radius: 1%;
 }
 
@@ -151,10 +153,15 @@ button{
 	border-radius: 5%;
 	text-align: center;
 	border: none;
-	background: -webkit-linear-gradient(#5B68FD, #373A75);
-	background:    -moz-linear-gradient(#5B68FD, #373A75);
-	background:     -ms-linear-gradient(#5B68FD, #373A75);
-	background:      -o-linear-gradient(#5B68FD, #373A75);
-	background:         linear-gradient(#5B68FD, #373A75);
+	/*background: -webkit-linear-gradient(#C7CC6A, #AFB266);
+	background:    -moz-linear-gradient(#C7CC6A, #AFB266);
+	background:     -ms-linear-gradient(#C7CC6A, #AFB266);
+	background:      -o-linear-gradient(#C7CC6A, #AFB266);
+	background:         linear-gradient(#C7CC6A, #AFB266);*/
+	background: -webkit-linear-gradient(#BCC486, #ADB286);
+	background:    -moz-linear-gradient(#BCC486, #ADB286);
+	background:     -ms-linear-gradient(#BCC486, #ADB286);
+	background:      -o-linear-gradient(#BCC486, #ADB286);
+	background:         linear-gradient(#BCC486, #ADB286);
 	margin: 10px;
 }
