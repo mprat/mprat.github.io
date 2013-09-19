@@ -82,16 +82,21 @@ footer{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	border: 1px solid #020202;
+	border: 1px dashed #020202;
 	/*cursor: pointer;*/
 }
 
 .main-concept{
-	background: red;
+	background: #F09292;
 }
 
 .project{
-	background: blue;
+	background: #7474E2;
+	/*background: -webkit-linear-gradient(#5B68FD, #373A75);
+	background:    -moz-linear-gradient(#5B68FD, #373A75);
+	background:     -ms-linear-gradient(#5B68FD, #373A75);
+	background:      -o-linear-gradient(#5B68FD, #373A75);
+	background:         linear-gradient(#5B68FD, #373A75);*/
 	cursor: pointer;
 }
 
@@ -99,7 +104,7 @@ footer{
 	position: absolute;
 	width: 600px;
 	height: 500px;
-	background: #b9b9b9;
+	background: #A0AFD4;
 	border-radius: 1%;
 }
 
@@ -138,10 +143,10 @@ button{
 	border-radius: 5%;
 	text-align: center;
 	border: none;
-	background: -webkit-linear-gradient(#2A3BFF, #141875);
-	background:    -moz-linear-gradient(#2A3BFF, #141875);
-	background:     -ms-linear-gradient(#2A3BFF, #141875);
-	background:      -o-linear-gradient(#2A3BFF, #141875);
-	background:         linear-gradient(#2A3BFF, #141875);
+	background: -webkit-linear-gradient(#5B68FD, #373A75);
+	background:    -moz-linear-gradient(#5B68FD, #373A75);
+	background:     -ms-linear-gradient(#5B68FD, #373A75);
+	background:      -o-linear-gradient(#5B68FD, #373A75);
+	background:         linear-gradient(#5B68FD, #373A75);
 	margin: 10px;
 }
