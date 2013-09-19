@@ -96,11 +96,11 @@ footer{
 
 .project{
 	background: #7474E2;
-	/*background: -webkit-linear-gradient(#5B68FD, #373A75);
-	background:    -moz-linear-gradient(#5B68FD, #373A75);
-	background:     -ms-linear-gradient(#5B68FD, #373A75);
-	background:      -o-linear-gradient(#5B68FD, #373A75);
-	background:         linear-gradient(#5B68FD, #373A75);*/
+	background: -webkit-linear-gradient(#7474E2, #474788);
+	background:    -moz-linear-gradient(#7474E2, #474788);
+	background:     -ms-linear-gradient(#7474E2, #474788);
+	background:      -o-linear-gradient(#7474E2, #474788);
+	background:         linear-gradient(#7474E2, #474788);
 	cursor: pointer;
 }
 
