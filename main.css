@@ -54,6 +54,7 @@ h4{
 
 p{
 	padding: 0 10px 0 30px;
+	color: #CFCFCF;
 }
 
 .main{
@@ -166,8 +167,13 @@ button{
 	margin: 10px;
 }
 
-img{
+.thumbnail{
 	width: 150px;
 	margin: 15px;
 	/*border: 1px solid #c6c9cc;*/
+}
+
+.ext-logo-link{
+	vertical-align: middle; 
+	border: 0;
 }
