@@ -24,9 +24,11 @@ h1{
 	word-wrap: break-word;
 	text-align: center;
 	position: relative;
-	top: 35%;
+	top: 40%;
 	margin: 0;
 	padding: 0;
+	letter-spacing: 0em;
+	font-size: 20px;
 }
 
 .project-detail h1{
@@ -81,7 +83,6 @@ footer{
 	height: 100px;
 	border-radius: 50%;
 	border: 1px solid #020202;
-	cursor: pointer;
 }
 
 .main-concept{
@@ -90,6 +91,7 @@ footer{
 
 .project{
 	background: blue;
+	cursor: pointer;
 }
 
 .project-detail, .detail-container{
