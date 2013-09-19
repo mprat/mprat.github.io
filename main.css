@@ -31,6 +31,10 @@ h1{
 	font-size: 20px;
 }
 
+.main-concept h1{
+	font-size: 15px;
+}
+
 .project-detail h1{
 	margin-left: 25px;
 }
@@ -88,6 +92,8 @@ footer{
 
 .main-concept{
 	background: #F09292;
+	width: 80px;
+	height: 80px;
 }
 
 .project{
