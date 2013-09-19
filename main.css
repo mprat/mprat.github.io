@@ -83,10 +83,13 @@ footer{
 	height: 100px;
 	border-radius: 50%;
 	border: 1px solid #020202;
+	/*cursor: pointer;*/
 }
 
 .main-concept{
 	background: red;
+	border-radius: 0;
+	height: 50px;
 }
 
 .project{
