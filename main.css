@@ -177,3 +177,13 @@ button{
 	vertical-align: middle; 
 	border: 0;
 }
+
+#linkedin_logo{
+	width: 20px;
+	height: 15px;
+}
+
+#github_logo{
+	width: 15px;
+	height: 15px;
+}
