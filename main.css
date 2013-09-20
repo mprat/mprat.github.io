@@ -74,10 +74,6 @@ p{
 	padding-right: 25px;
 }
 
-#ext-links a{
-	font-family: 
-}
-
 footer{
 	clear: both;
 }
@@ -146,8 +142,14 @@ footer{
 	top: 45px;
 }
 
+ul{
+	/*display: inline;*/
+	/*overflow: hidden;*/
+}
+
 li{
 	list-style: none;
+	margin: 10px 10px 10px 10px;
 }
 
 button{
@@ -183,16 +185,16 @@ button{
 }
 
 #linkedin_logo{
-	width: 20px;
-	height: 15px;
+	width: 160px;
+	height: 33px;
 }
 
 #github_logo{
-	width: 15px;
-	height: 15px;
+	width: 147px;
+	height: 26px;
 }
 
 #flickr_logo{
-	width: 23px;
-	height: 23px;
+	width: 147px;
+	height: 26px;
 }
