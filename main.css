@@ -145,6 +145,7 @@ footer{
 ul{
 	/*display: inline;*/
 	/*overflow: hidden;*/
+	padding: 0;
 }
 
 li{
@@ -197,4 +198,8 @@ button{
 #flickr_logo{
 	width: 147px;
 	height: 26px;
+}
+
+img{
+	display: block;
 }
