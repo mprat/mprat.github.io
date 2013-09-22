@@ -105,4 +105,7 @@ $(document).ready(function() {
 		$('.detail-display').hide();
 		$(".home-container").show();
 	});
+
+	// positioning code
+	// $('#ed').css('left', $(document).width() - $('#ext-links').width() - $('#ed').width());
 });

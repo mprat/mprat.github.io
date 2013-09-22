@@ -203,3 +203,9 @@ button{
 img{
 	display: block;
 }
+
+.home-container{
+	height: 400px;
+	/*background: red;*/
+	position: relative;
+}
