@@ -107,5 +107,12 @@ $(document).ready(function() {
 	});
 
 	// positioning code
-	// $('#ed').css('left', $(document).width() - $('#ext-links').width() - $('#ed').width());
+	var position_main_concepts = function(){
+		var home_width = $('.home-container').width();
+		var project_width = $('#ed').width();
+		$('#ed').css('left', home_width - project_width);
+		$('#art').css('left', home_width / 2 - project_width /2);
+	}
+	position_main_concepts();
+	$(window).resize(position_main_concepts);
 });
