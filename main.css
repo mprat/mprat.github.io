@@ -52,8 +52,15 @@ h4{
 	padding: 0 10px 0 20px;
 }
 
-p{
+p, ul.detail-list{
 	padding: 0 30px 0 30px;
+}
+
+ul.detail-list{
+	padding-left: 60px;
+}
+
+.detail-text{
 	color: #CFCFCF;
 }
 
@@ -112,7 +119,7 @@ footer{
 .project-detail, .detail-container{
 	position: absolute;
 	width: 600px;
-	height: 500px;
+	height: 600px;
 	/*background: #9ED2FF;*/
 	/*background: #5D8BB2;*/
 	background: #4B708F;
@@ -142,15 +149,18 @@ footer{
 	top: 45px;
 }
 
-ul{
+.links-list{
 	/*display: inline;*/
 	/*overflow: hidden;*/
 	padding: 0;
 }
 
-li{
-	list-style: none;
+.links-list-item{
 	margin: 10px 10px 10px 10px;
+}
+
+.custom-list-item{
+	list-style: none;
 }
 
 button{
