@@ -215,6 +215,10 @@ img{
 	display: block;
 }
 
+.detail-img{
+	float: right;
+}
+
 .home-container{
 	height: 400px;
 	/*background: red;*/
