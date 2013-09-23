@@ -107,12 +107,13 @@ $(document).ready(function() {
 	});
 
 	// positioning code
-	var position_main_concepts = function(){
+	var position_main_circles = function(){
 		var home_width = $('.home-container').width();
 		var project_width = $('#ed').width();
 		$('#ed').css('left', home_width - project_width);
 		$('#art').css('left', home_width / 2 - project_width /2);
 	}
-	position_main_concepts();
-	$(window).resize(position_main_concepts);
+
+	position_main_circles();
+	$(window).resize(position_main_circles);
 });
