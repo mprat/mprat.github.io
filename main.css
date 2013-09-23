@@ -211,8 +211,13 @@ button{
 	height: 26px;
 }
 
+#flickr_logo_mini{
+	width: 100px;
+	height: 26px;
+}
+
 img{
-	display: block;
+	display: inline-block;
 }
 
 .detail-img{
