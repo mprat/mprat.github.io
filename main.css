@@ -121,6 +121,10 @@ ul.detail-list{
 	/*background: #5D8BB2;*/
 	background: #4B708F;
 	border-radius: 1%;
+	-webkit-box-shadow: 0 0 5px #353030;
+       -moz-box-shadow: 0 0 5px #353030;
+         -o-box-shadow: 0 0 5px #353030;
+            box-shadow: 0 0 5px #353030;
 }
 
 #tech{
