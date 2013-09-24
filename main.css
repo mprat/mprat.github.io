@@ -82,10 +82,6 @@ ul.detail-list{
 	padding-right: 25px;
 }
 
-footer{
-	clear: both;
-}
-
 .main-concept, .project{
 	position: absolute;
 	width: 100px;
