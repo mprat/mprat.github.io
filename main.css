@@ -77,10 +77,10 @@ ul.detail-list{
 	background: rgba(0,0,0,0);
 	/*width: 15%;*/
 	position: fixed;
-	bottom: 0;
+	left: 0;
 	right: 0;
 	top: 0;
-	padding-right: 25px;
+	/*padding-right: 25px;*/
 }
 
 .main-concept, .project{
@@ -202,9 +202,19 @@ button{
 	height: 33px;
 }
 
+#linkedin_logo_mini{
+	width: 20px;
+	height: 15px;
+}
+
 #github_logo{
 	width: 147px;
 	height: 26px;
+}
+
+#github_logo_mini{
+	width: 32px;
+	height: 32px;
 }
 
 #flickr_logo{
@@ -212,9 +222,9 @@ button{
 	height: 26px;
 }
 
-#flickr_logo_mini{
-	width: 56px;
-	height: 26px;
+.flickr_logo_mini{
+	width: 23px;
+	height: 23px;
 }
 
 img{
@@ -229,4 +239,8 @@ img{
 	height: 400px;
 	/*background: red;*/
 	position: relative;
+}
+
+.right-float-content{
+	float:right;
 }
