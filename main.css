@@ -14,7 +14,7 @@ div{
 }
 
 h1{
-	padding: 10px 10px 0 0;
+	padding: 0;
 	font-family: 'Lucida Grande', 'Lucida Sans', Lucida, sans-serif; 
 	letter-spacing: .1em;
 	margin: 0;
@@ -76,7 +76,7 @@ ul.detail-list{
 	/*background: #EBF882;*/
 	background: rgba(0,0,0,0);
 	/*width: 15%;*/
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -135,7 +135,7 @@ ul.detail-list{
 
 #ed{
 	left: 500px;
-	top: -50px;
+	top: -25px;
 }
 
 #art{
@@ -152,10 +152,9 @@ ul.detail-list{
 }
 
 .links-list{
-	display: inline-block;
-	/*overflow: hidden;*/
 	padding: 0;
-	float: left;
+	margin: -25px 0 0 0;
+	float: right;
 }
 
 .links-list-item{
