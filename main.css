@@ -118,9 +118,12 @@ ul.detail-list{
 	cursor: pointer;
 }
 
-.project-detail, .detail-container{
+.project-detail, .btn-container{
 	position: absolute;
 	width: 600px;
+}
+
+.project-detail{
 	/*height: 600px;*/
 	/*background: #9ED2FF;*/
 	/*background: #5D8BB2;*/

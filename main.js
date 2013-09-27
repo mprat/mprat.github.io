@@ -93,7 +93,6 @@ $(document).ready(function() {
 
 	$('.project').click(function(){
 		$("#" + $(this).attr("id") +"-detail").toggle();
-		$(".detail-container").toggle();
 		$(".home-container").hide();
 	});
 
