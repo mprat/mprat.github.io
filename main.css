@@ -152,13 +152,15 @@ ul.detail-list{
 }
 
 .links-list{
-	/*display: inline;*/
+	display: inline-block;
 	/*overflow: hidden;*/
 	padding: 0;
 }
 
 .links-list-item{
-	margin: 10px 10px 10px 10px;
+	/*margin: 10px 10px 10px 10px;*/
+	margin: 5px;
+	display: inline;
 }
 
 .custom-list-item{
@@ -203,8 +205,8 @@ button{
 }
 
 #linkedin_logo_mini{
-	width: 20px;
-	height: 15px;
+	width: 24px;
+	height: 18px;
 }
 
 #github_logo{
@@ -218,7 +220,7 @@ button{
 }
 
 #flickr_logo{
-	width: 147px;
+	width: 56px;
 	height: 26px;
 }
 
