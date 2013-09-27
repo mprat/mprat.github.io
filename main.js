@@ -90,10 +90,12 @@ $(document).ready(function() {
 
 	//initially hide all project details so you can toggle their display later
 	$(".detail-display").hide();
+	$(".btn-container").hide();
 
 	$('.project').click(function(){
 		$("#" + $(this).attr("id") +"-detail").toggle();
 		$(".home-container").hide();
+		$(".btn-container").show();
 	});
 
 	$('.main-concept').click(function(){
@@ -103,6 +105,7 @@ $(document).ready(function() {
 	$('.home-btn').click(function(){
 		$('.detail-display').hide();
 		$(".home-container").show();
+		$(".btn-container").hide();
 	});
 
 	// positioning code
