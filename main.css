@@ -120,7 +120,8 @@ ul.detail-list{
 
 .project-detail, .btn-container{
 	position: absolute;
-	width: 600px;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .project-detail{
