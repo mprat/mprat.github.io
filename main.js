@@ -112,8 +112,8 @@ $(document).ready(function() {
 	var position_main_circles = function(){
 		var home_width = $('.home-container').width();
 		var project_width = $('#ed').width();
-		$('#ed').css('left', home_width - project_width);
-		$('#art').css('left', home_width / 2 - project_width /2);
+		// $('#ed').css('left', home_width - project_width);
+		// $('#art').css('left', home_width / 2 - project_width /2);
 	}
 
 	position_main_circles();
