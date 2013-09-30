@@ -136,7 +136,7 @@ ul.detail-list{
             box-shadow: 0 0 5px #353030;
 }
 
-/*#tech{
+#tech{
 	left: 0;
 	top: 100px;
 }
@@ -150,6 +150,7 @@ ul.detail-list{
 	left: 400px;
 	top: 300px;
 }
+/*
 #terminus{
 	left: 320px;
 	top: 120px;

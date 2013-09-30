@@ -115,10 +115,13 @@ $(document).ready(function() {
 		var project_width = $('#ed').width();
 		var concept_width = $('#terminus').width();
 
-		// $('#ed').css('left', home_width - project_width);
-		// $('#art').css('left', home_width / 2 - project_width /2);
+		$('#ed').css('left', home_width - project_width);
+		$('#art').css('left', home_width / 2 - project_width /2);
+		$('#meet').css('left', home_width / 2 - concept_width /2)
+		$('#terminus').css('left', home_width / 2 - concept_width /2)
+		$('#terminus').css('top', home_height / 2 - concept_width /2)
 	}
 
 	position_main_circles();
-	// $(window).resize(position_main_circles);
+	$(window).resize(position_main_circles);
 });
