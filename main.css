@@ -254,3 +254,7 @@ img{
 .right-float-content{
 	float:right;
 }
+
+.nopadding{
+	padding: 0;
+}

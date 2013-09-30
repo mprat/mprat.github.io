@@ -111,11 +111,14 @@ $(document).ready(function() {
 	// positioning code
 	var position_main_circles = function(){
 		var home_width = $('.home-container').width();
+		var home_height = $('.home-container').height();
 		var project_width = $('#ed').width();
+		var concept_width = $('#terminus').width();
+
 		// $('#ed').css('left', home_width - project_width);
 		// $('#art').css('left', home_width / 2 - project_width /2);
 	}
 
 	position_main_circles();
-	$(window).resize(position_main_circles);
+	// $(window).resize(position_main_circles);
 });
