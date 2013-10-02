@@ -88,6 +88,27 @@ $(document).ready(function() {
 	// 	}
 	// };
 
+	var projects = document.getElementsByClassName("project");
+	var concepts = document.getElementsByClassName("main-concept");
+	var circles = [].slice.call(projects).concat([].slice.call(concepts));
+	var numelem = circles.length;
+	var circles_string_list = [];
+	[].forEach.call(circles, function(elem){circles_string_list.push(elem.id);});
+
+	var hashfunc = function(str1, str2){
+		if (str1 < str2){ return str1+str2;}
+		else {return str2+str1;}
+	};
+
+	var pairDistances = {};
+
+	for (var i = circles.length - 1; i >= 0; i--) {
+		// console.log(projects[i]);
+		for (var j = i - 1; j >= 0; j--) {
+			console.log(hashfunc(circles_string_list[i], circles_string_list[j]));
+		};
+	};
+
 	//initially hide all project details so you can toggle their display later
 	$(".detail-display").hide();
 	$(".btn-container").hide();
@@ -106,6 +127,7 @@ $(document).ready(function() {
 		$('.detail-display').hide();
 		$(".home-container").show();
 		$(".btn-container").hide();
+		position_main_circles();
 	});
 
 	// positioning code
