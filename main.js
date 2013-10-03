@@ -126,20 +126,26 @@ $(document).ready(function() {
 		concept_width = $('#terminus').width();
 		$('#ed').css('left', home_width - project_width);
 		$('#art').css('left', home_width / 2 - project_width /2);
+
+		// position absolutely.
+		$('#meet').css('left', home_width / 2 - concept_width /2 + concept_width / 4);
+		$('#meet').css('top', concept_width / 6);
+		$('#terminus').css('left', home_width / 2 - concept_width /2 - concept_width / 4);
+		$('#terminus').css('top', home_height / 2 - concept_width /2);
 	}
 
 	var rand_position_concepts = function(){
-		// $('#meet').css('left', home_width / 2 - concept_width /2);
-		// $('#terminus').css('left', home_width / 2 - concept_width /2);
-		// $('#terminus').css('top', home_height / 2 - concept_width /2);
 		$('#meet').css('left', randBetween(concept_width, home_width - concept_width));
 		$('#terminus').css('left', randBetween(concept_width, home_width - concept_width));
 		$('#terminus').css('top', randBetween(concept_width, home_height - concept_width));
 	}
 
 	position_main_circles();
-	rand_position_concepts();
-	$(window).resize(position_main_circles);
+	// rand_position_concepts();
+	$(window).resize(function(){
+		position_main_circles();
+		console.log(checkDists());
+	});
 
 	var projects = document.getElementsByClassName("project");
 	var concepts = document.getElementsByClassName("main-concept");
@@ -185,5 +191,7 @@ $(document).ready(function() {
 		return true;
 	};
 
-	while (!checkDists()){ rand_position_concepts()};
+	// while (!checkDists()){
+	// 	rand_position_concepts();
+	// };
 });
