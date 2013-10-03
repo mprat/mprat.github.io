@@ -114,16 +114,31 @@ $(document).ready(function() {
 	var project_width = $('#ed').width();
 	var concept_width = $('#terminus').width();
 
+	var randBetween = function(lowerBound, upperBound){
+		return Math.floor((Math.random() * (upperBound - lowerBound + 1)) + lowerBound);
+	};
+
 	// positioning code
 	var position_main_circles = function(){
+		home_width = $('.home-container').width();
+		home_height = $('.home-container').height();
+		project_width = $('#ed').width();
+		concept_width = $('#terminus').width();
 		$('#ed').css('left', home_width - project_width);
 		$('#art').css('left', home_width / 2 - project_width /2);
-		$('#meet').css('left', home_width / 2 - concept_width /2)
-		$('#terminus').css('left', home_width / 2 - concept_width /2)
-		$('#terminus').css('top', home_height / 2 - concept_width /2)
+	}
+
+	var rand_position_concepts = function(){
+		// $('#meet').css('left', home_width / 2 - concept_width /2);
+		// $('#terminus').css('left', home_width / 2 - concept_width /2);
+		// $('#terminus').css('top', home_height / 2 - concept_width /2);
+		$('#meet').css('left', randBetween(concept_width, home_width - concept_width));
+		$('#terminus').css('left', randBetween(concept_width, home_width - concept_width));
+		$('#terminus').css('top', randBetween(concept_width, home_height - concept_width));
 	}
 
 	position_main_circles();
+	rand_position_concepts();
 	$(window).resize(position_main_circles);
 
 	var projects = document.getElementsByClassName("project");
@@ -138,31 +153,37 @@ $(document).ready(function() {
 		else {return str2+str1;}
 	};
 
-	var pairDistances = {};
+	var checkDists = function(){
+		var pairDistances = {};
 
-	var distance = function(name1, name2){
-		circle1 = document.getElementById(name1);
-		circle2 = document.getElementById(name2);
-		// console.log(circle1.offsetTop);
-		// console.log(circle1.offsetLeft)
-		// console.log(circle2.offsetTop);
-		// console.log(circle2.offsetLeft);
-		return Math.sqrt(Math.pow(circle1.offsetLeft - circle2.offsetLeft, 2) + Math.pow(circle1.offsetTop - circle2.offsetTop, 2));
+		var distance = function(name1, name2){
+			circle1 = document.getElementById(name1);
+			circle2 = document.getElementById(name2);
+			// console.log(circle1.offsetTop);
+			// console.log(circle1.offsetLeft)
+			// console.log(circle2.offsetTop);
+			// console.log(circle2.offsetLeft);
+			return Math.sqrt(Math.pow(circle1.offsetLeft - circle2.offsetLeft, 2) + Math.pow(circle1.offsetTop - circle2.offsetTop, 2));
+		};
+
+		for (var i = circles.length - 1; i >= 0; i--) {
+			// console.log(projects[i]);
+			for (var j = i - 1; j >= 0; j--) {
+				// console.log(hashfunc(circles_string_list[i], circles_string_list[j]));
+				// console.log(distance(circles_string_list[i], circles_string_list[j]))
+				pairDistances[hashfunc(circles_string_list[i], circles_string_list[j])] = distance(circles_string_list[i], circles_string_list[j]);
+			};
+		};
+		for (var pair in pairDistances){
+			if (pairDistances[pair] < project_width){
+				// console.log("overlap");
+				// console.log(pair);
+				// console.log(pairDistances[pair]);
+				return false;
+			};
+		};
+		return true;
 	};
 
-	for (var i = circles.length - 1; i >= 0; i--) {
-		// console.log(projects[i]);
-		for (var j = i - 1; j >= 0; j--) {
-			// console.log(hashfunc(circles_string_list[i], circles_string_list[j]));
-			// console.log(distance(circles_string_list[i], circles_string_list[j]))
-			pairDistances[hashfunc(circles_string_list[i], circles_string_list[j])] = distance(circles_string_list[i], circles_string_list[j]);
-		};
-	};
-	for (var pair in pairDistances){
-		if (pairDistances[pair] < project_width){
-			console.log("overlap");
-			console.log(pair);
-			console.log(pairDistances[pair]);
-		};
-	};
+	while (!checkDists()){ rand_position_concepts()};
 });
