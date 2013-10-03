@@ -260,3 +260,9 @@ img{
 .nopadding{
 	padding: 0;
 }
+
+footer{
+	clear: both;
+	position: relative;
+	margin-top: 20px;
+}

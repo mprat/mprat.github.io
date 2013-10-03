@@ -96,6 +96,7 @@ $(document).ready(function() {
 		$("#" + $(this).attr("id") +"-detail").toggle();
 		$(".home-container").hide();
 		$(".btn-container").show();
+		$("footer").css('top', $("#" + $(this).attr("id") +"-detail").height());
 	});
 
 	$('.main-concept').click(function(){
@@ -106,6 +107,8 @@ $(document).ready(function() {
 		$('.detail-display').hide();
 		$(".home-container").show();
 		$(".btn-container").hide();
+		// $("footer").css('top', $(".home-container").height());
+		$("footer").css('top', "auto");
 		position_main_circles();
 	});
 
