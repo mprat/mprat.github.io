@@ -109,13 +109,13 @@ $(document).ready(function() {
 		position_main_circles();
 	});
 
+	var home_width = $('.home-container').width();
+	var home_height = $('.home-container').height();
+	var project_width = $('#ed').width();
+	var concept_width = $('#terminus').width();
+
 	// positioning code
 	var position_main_circles = function(){
-		var home_width = $('.home-container').width();
-		var home_height = $('.home-container').height();
-		var project_width = $('#ed').width();
-		var concept_width = $('#terminus').width();
-
 		$('#ed').css('left', home_width - project_width);
 		$('#art').css('left', home_width / 2 - project_width /2);
 		$('#meet').css('left', home_width / 2 - concept_width /2)
@@ -155,6 +155,14 @@ $(document).ready(function() {
 		for (var j = i - 1; j >= 0; j--) {
 			// console.log(hashfunc(circles_string_list[i], circles_string_list[j]));
 			// console.log(distance(circles_string_list[i], circles_string_list[j]))
+			pairDistances[hashfunc(circles_string_list[i], circles_string_list[j])] = distance(circles_string_list[i], circles_string_list[j]);
+		};
+	};
+	for (var pair in pairDistances){
+		if (pairDistances[pair] < project_width){
+			console.log("overlap");
+			console.log(pair);
+			console.log(pairDistances[pair]);
 		};
 	};
 });
