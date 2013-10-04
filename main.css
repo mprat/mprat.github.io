@@ -119,6 +119,10 @@ ul.detail-list{
 	cursor: pointer;
 }
 
+.project:hover{
+	background: #000000;
+}
+
 .project-detail, .btn-container{
 	position: absolute;
 	/*width: 80%;*/
@@ -288,6 +292,14 @@ footer{
 	margin: 0;
 	top: 0;
 	right: 0;
+}
+
+.project:hover{
+	background: #000000;
+}
+
+.project:hover h1 {
+    color: #5D8BB2;
 }
 
 @media all and (min-width: 630px){
