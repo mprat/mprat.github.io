@@ -95,10 +95,10 @@ ul.detail-list{
 	border-radius: 50%;
 	border: 1px dashed #020202;
 	/*cursor: pointer;*/
-	-webkit-box-shadow: 0 0 1.11% #353030;
-       -moz-box-shadow: 0 0 1.11% #353030;
-         -o-box-shadow: 0 0 1.11% #353030;
-            box-shadow: 0 0 1.11% #353030;
+	-webkit-box-shadow: 0 0 10px #353030;
+       -moz-box-shadow: 0 0 10px #353030;
+         -o-box-shadow: 0 0 10px #353030;
+            box-shadow: 0 0 10px #353030;
 }
 
 .main-concept{
