@@ -101,6 +101,15 @@ ul.detail-list{
             box-shadow: 0 0 10px #353030;
 }
 
+.project:hover{
+	background: #000000;
+	border-color: #5D8BB2;
+}
+
+.project:hover h1 {
+    color: #5D8BB2;
+}
+
 .main-concept{
 	background: #FFBAB7;
 	-webkit-transform: scale(.85);
@@ -301,14 +310,6 @@ footer{
 	margin: 0;
 	top: 0;
 	right: 0;
-}
-
-.project:hover{
-	background: #000000;
-}
-
-.project:hover h1 {
-    color: #5D8BB2;
 }
 
 @media all and (min-width: 630px){
