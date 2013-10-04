@@ -8,12 +8,6 @@ body{
 	margin: 0;
 }
 
-header{			
-	/*background: red;*/
-	/*padding: 20px;*/
-	/*width: 100%;*/
-}
-
 div{
 	position: relative;
 }
@@ -80,18 +74,6 @@ ul.detail-list{
 	margin-bottom: 20px;
 	width: 80%;
 	max-width: 900px;
-}
-
-#ext-links{
-	/*margin-left: 100px;*/
-	/*background: #EBF882;*/
-	background: rgba(0,0,0,0);
-	/*width: 15%;*/
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	/*padding-right: 25px;*/
 }
 
 .main-concept, .project{
@@ -166,12 +148,6 @@ ul.detail-list{
 	left: 250px;
 	top: 45px;
 }*/
-
-.links-list{
-	padding: 0;
-	margin: -25px 0 0 0;
-	float: right;
-}
 
 .links-list-item{
 	/*margin: 10px 10px 10px 10px;*/
@@ -272,4 +248,24 @@ footer{
 	position: relative;
 	font-style: italic;
 	float: right;
+}
+
+#ext-links{
+	/*margin-left: 100px;*/
+	/*background: #EBF882;*/
+	background: rgba(0,0,0,0);
+	/*width: 15%;*/
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	/*padding-right: 25px;*/
+}
+
+@media all and (min-width: 630px){
+	.links-list{
+		padding: 0;
+		margin: -25px 0 0 0;
+		float: right;
+	}
 }
