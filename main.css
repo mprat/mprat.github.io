@@ -313,7 +313,7 @@ footer{
 	right: 0;
 }
 
-@media all and (min-width: 630px), all and not (orientation: portrait, all and (min-resolution: 240dpi){
+@media all and (min-width: 630px), all and not (orientation: portrait){
 /*@media all and (min-target-densitydpi=device-dpi){*/
 	.links-list{
 		position: absolute;
