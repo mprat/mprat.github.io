@@ -8,7 +8,7 @@ body{
 	margin: 0;
 }
 
-div{
+div, header{
 	position: relative;
 }
 
@@ -38,7 +38,7 @@ header h1{
 }
 
 h2{
-	padding: 2px 10px 10px 35px;
+	padding: 2px 10px 0 35px;
 	font: 16px/22px Garamond, serif; 
 	margin: 0;
 }
@@ -152,7 +152,7 @@ ul.detail-list{
 .links-list-item{
 	/*margin: 10px 10px 10px 10px;*/
 	margin: 5px;
-	display: inline;
+	display: inline-block;
 }
 
 .custom-list-item{
@@ -237,6 +237,12 @@ img{
 
 .right-float-content{
 	float:right;
+	background: red;
+}
+
+.left-float-content{
+	float:left;
+	background: blue;
 }
 
 .nopadding{
@@ -262,10 +268,15 @@ footer{
 	/*padding-right: 25px;*/
 }
 
+.links-list{
+	padding: 0;
+	margin: 0;
+	top: 0;
+	right: 0;
+}
+
 @media all and (min-width: 630px){
 	.links-list{
-		padding: 0;
-		margin: -25px 0 0 0;
-		float: right;
+		position: absolute;
 	}
 }
