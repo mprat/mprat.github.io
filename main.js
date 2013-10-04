@@ -136,6 +136,18 @@ $(document).ready(function() {
 		$('#meet').css('top', concept_width / 2);
 		$('#terminus').css('left', home_width / 2 - concept_width /2 - concept_width / 4);
 		$('#terminus').css('top', home_height / 2);
+
+		// check which detail is visible
+		var visible_detail = false;
+		$(".project-detail").each(function(index){
+			if ($(this).is(":visible")){
+				visible_detail = this;
+			};
+		});
+
+		if (visible_detail){
+			$("footer").css('top', $(visible_detail).height());
+		}
 	}
 
 	var rand_position_concepts = function(){
@@ -148,7 +160,7 @@ $(document).ready(function() {
 	// rand_position_concepts();
 	$(window).resize(function(){
 		position_main_circles();
-		console.log(checkDists());
+		// console.log(checkDists());
 	});
 
 	var projects = document.getElementsByClassName("project");
