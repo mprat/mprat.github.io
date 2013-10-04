@@ -196,6 +196,15 @@ button{
 	margin: 1.39%;
 }
 
+button:hover{
+    /*border: 1px solid;*/
+    background: -webkit-linear-gradient(#ADB286, #BCC486);
+	background:    -moz-linear-gradient(#ADB286, #BCC486);
+	background:     -ms-linear-gradient(#ADB286, #BCC486);
+	background:      -o-linear-gradient(#ADB286, #BCC486);
+	background:         linear-gradient(#ADB286, #BCC486);
+}
+
 .thumbnail{
 	width: 150px;
 	margin: 15px;
