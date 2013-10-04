@@ -70,8 +70,8 @@ ul.detail-list{
 	/*position: relative;*/
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 2.22%;
+	margin-bottom: 2.22%;
 	width: 80%;
 	max-width: 900px;
 }
@@ -83,10 +83,10 @@ ul.detail-list{
 	border-radius: 50%;
 	border: 1px dashed #020202;
 	/*cursor: pointer;*/
-	-webkit-box-shadow: 0 0 10px #353030;
-       -moz-box-shadow: 0 0 10px #353030;
-         -o-box-shadow: 0 0 10px #353030;
-            box-shadow: 0 0 10px #353030;
+	-webkit-box-shadow: 0 0 1.11% #353030;
+       -moz-box-shadow: 0 0 1.11% #353030;
+         -o-box-shadow: 0 0 1.11% #353030;
+            box-shadow: 0 0 1.11% #353030;
 }
 
 .main-concept{
@@ -119,25 +119,25 @@ ul.detail-list{
 	/*background: #5D8BB2;*/
 	background: #4B708F;
 	border-radius: 1%;
-	-webkit-box-shadow: 0 0 5px #353030;
-       -moz-box-shadow: 0 0 5px #353030;
-         -o-box-shadow: 0 0 5px #353030;
-            box-shadow: 0 0 5px #353030;
+	-webkit-box-shadow: 0 0 .56% #353030;
+       -moz-box-shadow: 0 0 .56% #353030;
+         -o-box-shadow: 0 0 .56% #353030;
+            box-shadow: 0 0 .56% #353030;
 }
 
 #tech{
 	left: 0;
-	top: 100px;
+	top: 11.11%;
 }
 
 #ed{
-	left: 500px;
-	top: -25px;
+	left: 55.56%;
+	top: -2.78%;
 }
 
 #art{
-	left: 400px;
-	top: 300px;
+	left: 44.44%;
+	top: 80%;
 }
 /*
 #terminus{
@@ -177,7 +177,7 @@ button{
 	background:     -ms-linear-gradient(#BCC486, #ADB286);
 	background:      -o-linear-gradient(#BCC486, #ADB286);
 	background:         linear-gradient(#BCC486, #ADB286);
-	margin: 10px;
+	margin: 1.39%;
 }
 
 .thumbnail{
