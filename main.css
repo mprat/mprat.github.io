@@ -67,7 +67,7 @@ p, ul.detail-list{
 }
 
 ul.detail-list{
-	padding-left: 60px;
+	padding-left: 10%;
 }
 
 .detail-text{
@@ -309,5 +309,13 @@ footer{
 
 	header h1, header h2, .links-list{
 		text-align: left;
+	}
+
+	ul.detail-list{
+		padding-left: 60px;
+	}
+
+	ul.detail-list ul.detail-list{
+		padding-left: 30px;
 	}
 }
