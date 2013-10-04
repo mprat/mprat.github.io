@@ -23,6 +23,10 @@ header h1{
 	padding: 0;
 }
 
+header h1, header h2, .links-list{
+	text-align: center;
+}
+
 .main-concept h1, .project h1{
 	word-wrap: break-word;
 	text-align: center;
@@ -38,9 +42,13 @@ header h1{
 }
 
 h2{
-	padding: 2px 10px 0 35px;
+	padding: 2px 10px 0 55px;
 	font: 16px/22px Garamond, serif; 
 	margin: 0;
+}
+
+header h2{
+	padding-left: 125px;
 }
 
 h3{
@@ -72,8 +80,12 @@ ul.detail-list{
 	margin-right: auto;
 	margin-top: 2.22%;
 	margin-bottom: 2.22%;
-	width: 80%;
+	/*width: 80%;*/
 	max-width: 900px;
+}
+
+.main, footer, .project-detail, .btn-container{
+	width: 95%;
 }
 
 .main-concept, .project{
@@ -109,8 +121,8 @@ ul.detail-list{
 
 .project-detail, .btn-container{
 	position: absolute;
-	width: 80%;
-	margin-left: 10%;
+	/*width: 80%;*/
+	margin-left: 2.5%;
 }
 
 .project-detail{
@@ -253,7 +265,10 @@ footer{
 	/*clear: both;*/
 	position: relative;
 	font-style: italic;
-	float: right;
+	/*float: right;*/
+	/*display: inline-block;*/
+	/*background: red;*/
+	margin-top: 5%;
 }
 
 #ext-links{
@@ -278,5 +293,21 @@ footer{
 @media all and (min-width: 630px){
 	.links-list{
 		position: absolute;
+	}
+
+	footer{
+		margin-top: 4%;
+	}
+
+	.main, footer, .project-detail, .btn-container{
+		width: 80%;
+	}
+
+	.project-detail, .btn-container{
+		margin-left: 10%;
+	}
+
+	header h1, header h2, .links-list{
+		text-align: left;
 	}
 }

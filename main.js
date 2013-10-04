@@ -97,6 +97,7 @@ $(document).ready(function() {
 		$(".home-container").hide();
 		$(".btn-container").show();
 		$("footer").css('top', $("#" + $(this).attr("id") +"-detail").height());
+		$("footer").css('left', 'auto');
 	});
 
 	$('.main-concept').click(function(){
@@ -132,9 +133,9 @@ $(document).ready(function() {
 
 		// position absolutely.
 		$('#meet').css('left', home_width / 2 - concept_width /2 + concept_width / 4);
-		$('#meet').css('top', concept_width / 6);
+		$('#meet').css('top', concept_width / 2);
 		$('#terminus').css('left', home_width / 2 - concept_width /2 - concept_width / 4);
-		$('#terminus').css('top', home_height / 2 - concept_width /2);
+		$('#terminus').css('top', home_height / 2);
 	}
 
 	var rand_position_concepts = function(){
