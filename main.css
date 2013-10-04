@@ -313,7 +313,7 @@ footer{
 	right: 0;
 }
 
-@media all and (min-width: 630px){
+@media all and (min-width: 630px), all and not (orientation: portrait){
 	.links-list{
 		position: absolute;
 	}
