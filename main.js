@@ -210,4 +210,23 @@ $(document).ready(function() {
 	// while (!checkDists()){
 	// 	rand_position_concepts();
 	// };
+
+
+	// Analytics APIs
+	$('#github_logo_mini').on('click', function() {
+		ga('send', 'event', 'ext-link', 'click', 'github-link');
+	});
+	$('#flickr_ext_link').on('click', function() {
+		ga('send', 'event', 'ext-link', 'click', 'flickr-link');
+	});
+	$('#linkedin_logo_mini').on('click', function() {
+		ga('send', 'event', 'ext-link', 'click', 'linkedin-link');
+	});
+	$('#resume_link').on('click', function() {
+		ga('send', 'event', 'ext-link', 'click', 'resume-link');
+	});
+
+	$('.project').on('click', function(){
+		ga('send', 'event', 'projectinfo', 'click', 'project-detail');
+	});
 });
