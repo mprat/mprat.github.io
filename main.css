@@ -104,7 +104,7 @@ h2{
 }
 
 header h2{
-	padding-left: 125px;
+	padding-left: 0;
 }
 
 h3{
@@ -153,7 +153,7 @@ ul.detail-list{
 }
 
 .main-concept, .project{
-	position: absolute;
+	/*position: absolute;*/
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
@@ -190,6 +190,7 @@ ul.detail-list{
 	background:      -o-linear-gradient(#7474E2, #474788);
 	background:         linear-gradient(#7474E2, #474788);*/
 	cursor: pointer;
+	display: inline-block;
 }
 
 .project:hover{
@@ -328,7 +329,7 @@ img{
 }
 
 .home-container{
-	height: 400px;
+	/*height: 400px;*/
 	/*background: red;*/
 	position: relative;
 }
@@ -344,17 +345,22 @@ img{
 }
 
 .nopadding{
-	padding: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 5%;
 }
 
 footer{
-	/*clear: both;*/
+	clear: both;
 	position: relative;
 	font-style: italic;
 	/*float: right;*/
 	/*display: inline-block;*/
 	/*background: red;*/
 	margin-top: 5%;
+	text-align: left;
+	margin-left: 10%;
+	width: 80%;
 }
 
 #ext-links{
@@ -376,6 +382,10 @@ footer{
 	right: 0;
 }
 
+/*#about{
+	background: #4B708F;
+}*/
+
 @media all and (min-width: 630px), all and not (orientation: portrait){
 /*@media all and (min-target-densitydpi=device-dpi){*/
 	.links-list{
@@ -383,11 +393,20 @@ footer{
 	}
 
 	footer{
+		/*clear: both;*/
 		margin-top: 4%;
+		/*width: 50%;*/
 	}
 
 	.main, footer, .project-detail, .btn-container{
 		width: 80%;
+	}
+
+	.home-container{
+		width: 45%;
+		float:right;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.project-detail, .btn-container{
@@ -408,5 +427,15 @@ footer{
 
 	header h1{
 		margin-top: 0;
+	}
+
+	#about{
+		float: left;
+		width: 45%;
+	}
+
+	#about > p{
+		margin-left: 0;
+		padding-left: 0;
 	}
 }
