@@ -1,0 +1,518 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"visible",
+				"visible_detail"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"home_",
+				"home_height"
+			],
+			[
+				"detail",
+				"detail-display"
+			],
+			[
+				"rand",
+				"randBetween"
+			],
+			[
+				"chek",
+				"checkDists"
+			],
+			[
+				"concept",
+				"concept_width"
+			],
+			[
+				"home",
+				"home_height"
+			],
+			[
+				"pair",
+				"pairDistances"
+			],
+			[
+				"proj",
+				"project_width"
+			],
+			[
+				"is",
+				"isdigit"
+			],
+			[
+				"list",
+				"list_of_prime_factors"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"o",
+				"offsetLeft"
+			],
+			[
+				"of",
+				"offsetTop"
+			],
+			[
+				"cir",
+				"circle1"
+			],
+			[
+				"circles",
+				"circles_string_list"
+			],
+			[
+				"circle",
+				"circle2"
+			],
+			[
+				"off",
+				"offsetTop"
+			],
+			[
+				"circl",
+				"circle2"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"proje",
+				"project_string_list"
+			],
+			[
+				"project",
+				"project_string_list"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"geTel",
+				"getElementsByClassName"
+			],
+			[
+				"posi",
+				"position_main_circles"
+			],
+			[
+				"ext_link",
+				"ext_links_collection"
+			],
+			[
+				"cu",
+				"custom-list-item"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"posit",
+				"position_main_concepts"
+			],
+			[
+				"dtea",
+				"detail-container"
+			],
+			[
+				"projec",
+				"project_centers"
+			],
+			[
+				"offset",
+				"offsetLeft"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-variant"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"view",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"",
+				":$ - EOF"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/main.js",
+		"/home/mprat/Documents/Michele/Repos/personal-website/main.css",
+		"/home/mprat/Documents/Michele/Repos/personal-website/footer.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/header.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/_config.yaml",
+		"/home/mprat/Documents/Michele/Repos/personal-website/main.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/Gemfile",
+		"/home/mprat/Documents/Michele/Repos/personal-website/terminus.html",
+		"/home/mprat/Dropbox/Resumes, etc./resume_complete.tex",
+		"/home/mprat/Documents/Michele/Repos/y1-yearlong-python-example/program.py",
+		"/home/mprat/Desktop/blogdraft.txt",
+		"/home/mprat/Documents/Michele/Repos/y2-yearlong-django-review/toplists/movies/views.py",
+		"/home/mprat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/mprat/Documents/Michele/Repos/personal-website/imgs/github_banner.png",
+		"/home/mprat/Documents/Michele/Repos/personal-website/personal-website.sublime-project",
+		"/home/mprat/Documents/Michele/jump_challenge/calculations.m",
+		"/home/mprat/Documents/Michele/Repos/Bemis-100/bemis100.sublime-project",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_PIL/main.py",
+		"/home/mprat/Documents/Michele/OHM/ebctf/correct_num_seq_gdb_output",
+		"/home/mprat/Documents/Michele/OHM/ebctf/dumpwithS",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/README.md",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/demo.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_simplecv/demo.py",
+		"/home/mprat/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/cplusplus/display_image.cpp",
+		"/opt/sublime_text/Packages/LaTeX.sublime-package",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_PIL/cluster.py",
+		"/home/mprat/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/CMakeCache.txt",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/display_image.cpp",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/CMakeLists.txt",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_opencv/main.cpp",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/component_utils.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/cluster.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/component.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/segmentation.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/main.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/__init__.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/wire.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/plotGauss2D.py",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/demo_full.sch",
+		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/bread2pcb.sublime-project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin-left",
+			"footer",
+			"home-container",
+			"project",
+			"footer",
+			".project",
+			"home-container",
+			"project",
+			"height",
+			"main",
+			"h2",
+			"github",
+			"p",
+			"header h1",
+			"header ha",
+			".project",
+			"1.11%",
+			" #",
+			"1.11% ",
+			"1.11%",
+			"http",
+			"www.",
+			"h2",
+			"project-detail",
+			"width: 80%",
+			"4%",
+			"footer",
+			"terminus",
+			"project",
+			"header",
+			"position: relative",
+			"footer",
+			"header",
+			"links-list",
+			"footer",
+			".main",
+			"footer",
+			"model",
+			"terminus",
+			"width",
+			"main",
+			"ed",
+			"art",
+			"main",
+			"art",
+			"button",
+			"detail-container",
+			"detail-dis",
+			"flickr",
+			"footer",
+			"detail-list",
+			"element",
+			"links-list-item",
+			"<p>",
+			", ",
+			",",
+			",	",
+			"AI",
+			" -",
+			"home-con",
+			"ed",
+			"ext-l",
+			"ul",
+			"li ",
+			">\n",
+			"\n	",
+			">\n",
+			"member",
+			">\n",
+			"img",
+			"ext",
+			"373A75",
+			"5B68FD",
+			");\n",
+			"on-",
+			"display",
+			"on-display",
+			"on-",
+			"position: relative",
+			"projects[j].y",
+			"projects[j].x",
+			"ax",
+			"\")\n",
+			"main.js",
+			"vert-strip",
+			"h4",
+			"h1",
+			"h2",
+			"h1",
+			">\n",
+			"59",
+			"strip",
+			"main-container",
+			"8b10",
+			"b10",
+			"190",
+			"8048aa0",
+			"08049b04",
+			"_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E",
+			"804b65",
+			"804b65c",
+			"0x804b65c",
+			"80489b0",
+			"804b6b8",
+			"0x804b6b8",
+			"rand@",
+			"got.plt",
+			"0x080489c0",
+			"ret",
+			"<_fini",
+			"_fini>",
+			"_fini<",
+			"_fini",
+			"ret",
+			"804b6c4",
+			"804b65",
+			"804b65c",
+			"_ZNSsC1Ev",
+			"80489d0",
+			"<rand@plt>",
+			"(bad)",
+			"804b6a4",
+			"0x804b6a4",
+			"<time@plt>",
+			"<time",
+			"804b664",
+			"0x804b664",
+			"_ZNSsC1Ev"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "personal-website.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 177.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
