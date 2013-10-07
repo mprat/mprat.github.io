@@ -402,17 +402,16 @@ footer{
 }
 
 #about{
-	width: 60%;
+	width: 95%;
 	padding: 0;
 	margin: 0;
 	display: inline-block;
 	float: left;
 }
 
-@media all and (min-width: 530px){
-	.main, footer{
-/*		margin-left: 2%;
-		margin-right: 2%*/
+@media all and (min-width: 550px){
+	#about{
+		width: 60%;
 	}
 }
 
@@ -462,7 +461,6 @@ footer{
 	}
 
 	#about{
-		float: left;
 		width: 45%;
 	}
 
