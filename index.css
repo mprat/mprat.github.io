@@ -344,7 +344,7 @@ img{
 	float: right;
 }
 
-.home-container{
+.project-container{
 	/*height: 400px;*/
 	/*background: red;*/
 	position: relative;
@@ -360,10 +360,11 @@ img{
 	background: blue;
 }
 
-.nopadding{
+.project-list{
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: 5%;
+	text-align: center;
 }
 
 footer{
@@ -418,11 +419,11 @@ footer{
 		/*width: 80%;*/
 	}
 
-	.home-container{
-/*		width: 45%;
-		float:right;*/
-		padding-left: 5%;
-		padding-right: 5%;
+	.project-container{
+		width: 55%;
+		float:right;
+		/*padding-left: 5%;
+		padding-right: 5%;*/
 	}
 
 /*	.project-detail, .btn-container{
