@@ -191,6 +191,7 @@
 	},
 	"buffers":
 	[
+<<<<<<< HEAD
 		{
 			"contents": "",
 			"file": "_includes/footer.html",
@@ -224,6 +225,8 @@
 				"line_ending": "Unix"
 			}
 		}
+=======
+>>>>>>> jekyll
 	],
 	"build_system": "",
 	"command_palette":
@@ -470,9 +473,9 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
+<<<<<<< HEAD
 				{
 					"buffer": 0,
 					"file": "_includes/footer.html",
@@ -556,6 +559,8 @@
 					},
 					"type": "text"
 				}
+=======
+>>>>>>> jekyll
 			]
 		}
 	],
