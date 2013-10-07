@@ -213,7 +213,7 @@ ul.detail-list{
 }
 
 .project-detail, .btn-container{
-	position: absolute;
+	/*position: absolute;*/
 	/*width: 80%;*/
 	margin-left: 2.5%;
 }
@@ -409,12 +409,12 @@ footer{
 
 	footer{
 		/*clear: both;*/
-		margin-top: 4%;
+		margin-top: 2%;
 		/*width: 50%;*/
 	}
 
 	.main, footer, .project-detail, .btn-container{
-		width: 80%;
+		/*width: 80%;*/
 	}
 
 	.home-container{
