@@ -89,8 +89,8 @@ $(document).ready(function() {
 	// };
 
 	//initially hide all project details so you can toggle their display later
-	$(".detail-display").hide();
-	$(".btn-container").hide();
+	// $(".detail-display").hide();
+	// $(".btn-container").hide();
 
 	$('.project').click(function(){
 		$("#" + $(this).attr("id") +"-detail").toggle();

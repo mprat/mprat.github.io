@@ -403,15 +403,15 @@ footer{
 	}
 
 	.home-container{
-		width: 45%;
-		float:right;
+/*		width: 45%;
+		float:right;*/
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 
-	.project-detail, .btn-container{
+/*	.project-detail, .btn-container{
 		margin-left: 10%;
-	}
+	}*/
 
 	header h1, header h2, .links-list{
 		text-align: left;
