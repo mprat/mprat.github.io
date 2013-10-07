@@ -228,6 +228,7 @@ ul.detail-list{
        -moz-box-shadow: 0 0 .56% #353030;
          -o-box-shadow: 0 0 .56% #353030;
             box-shadow: 0 0 .56% #353030;
+    padding-bottom: 1%;
 }
 
 #tech{
