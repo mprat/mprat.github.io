@@ -93,6 +93,7 @@ header h1, header h2, .links-list{
 	letter-spacing: 0em;
 	font-size: 1.5em;
 	/*font-weight: normal;*/
+	/*color: #000000;*/
 }
 
 .project-detail h1{
@@ -164,11 +165,11 @@ ul.detail-list{
 
 .detail-text{
 	/*color: #CFCFCF;*/
-	color: #5D8BB2;
+	/*color: #5D8BB2;*/
 }
 
 .project-detail > h1, .project-detail > h2{
-	color: white;
+	/*color: white;*/
 }
 
 .main, footer{
@@ -191,7 +192,7 @@ ul.detail-list{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-	border: 1px dashed #020202;
+	border: 2px solid #020202;
 	/*cursor: pointer;*/
 	-webkit-box-shadow: 0 0 10px #353030;
        -moz-box-shadow: 0 0 10px #353030;
@@ -205,7 +206,7 @@ ul.detail-list{
 }
 
 .project:hover h1 {
-    color: #5D8BB2;
+    /*color: #5D8BB2;*/
 }
 
 .main-concept{
@@ -217,7 +218,7 @@ ul.detail-list{
 }
 
 .project{
-	background: #5D8BB2;
+	background: #EEEEEE;
 /*	background: -webkit-linear-gradient(#7474E2, #474788);
 	background:    -moz-linear-gradient(#7474E2, #474788);
 	background:     -ms-linear-gradient(#7474E2, #474788);
@@ -242,12 +243,17 @@ ul.detail-list{
 	/*background: #9ED2FF;*/
 	/*background: #5D8BB2;*/
 	/*background: #4B708F;*/
-	background: #0C0A0A;
+	/*background: #0C0A0A;*/
+	background: #EEEEEE;
+	/*background: white;*/
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
 	border-radius: 1%;
-	-webkit-box-shadow: 0 0 .56% #353030;
-       -moz-box-shadow: 0 0 .56% #353030;
-         -o-box-shadow: 0 0 .56% #353030;
-            box-shadow: 0 0 .56% #353030;
+	-webkit-box-shadow: 0 0 5px #353030;
+       -moz-box-shadow: 0 0 5px #353030;
+         -o-box-shadow: 0 0 5px #353030;
+            box-shadow: 0 0 5px #353030;
     padding-bottom: 1%;
     /*display: inline;*/
 }
