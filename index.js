@@ -96,6 +96,7 @@ $(document).ready(function() {
 		$("#" + $(this).attr("id") +"-detail").toggle();
 		$(".home-container").hide();
 		$(".btn-container").show();
+		$("#about").hide();
 		$("footer").css('top', $("#" + $(this).attr("id") +"-detail").height());
 		$("footer").css('left', 'auto');
 	});
@@ -108,6 +109,7 @@ $(document).ready(function() {
 		$('.detail-display').hide();
 		$(".home-container").show();
 		$(".btn-container").hide();
+		$("#about").show();
 		// $("footer").css('top', $(".home-container").height());
 		$("footer").css('top', "auto");
 		position_main_circles();
