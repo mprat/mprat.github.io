@@ -122,7 +122,7 @@ h2{
 }*/
 
 h3{
-	padding: 10px;
+	padding: 5px;
 	font-weight: bold;
 	font-size: 16px;
 	margin: 0;
@@ -200,7 +200,7 @@ ul.detail-list{
             box-shadow: 0 0 10px #353030;
 }
 
-.project:hover{
+.project:hover, nav > ul > li:hover{
 	background: #000000;
 	border-color: #5D8BB2;
 }
@@ -227,10 +227,10 @@ ul.detail-list{
 	cursor: pointer;
 	display: inline-block;
 }
-
+/*
 .project:hover{
 	background: #000000;
-}
+}*/
 
 .project-detail, .btn-container{
 	/*position: absolute;*/
@@ -442,10 +442,21 @@ footer{
 nav > ul > li {
 	border-style: solid;
 	border-width: 2px;
-	/*background: red;*/
+	background: #BBBBBB;
 	border-radius: 10%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 2px;
+}
+
+nav > ul{
 	padding: 2px;
-	margin: 0;
+}
+
+nav > ul > li > a{
+	text-decoration: none;
 }
 
 @media all and (min-width: 550px){
