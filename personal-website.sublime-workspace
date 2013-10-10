@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"5px",
+				"5px"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
 				"border",
 				"border-style"
 			],
@@ -30,10 +46,6 @@
 			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"mar",
@@ -191,42 +203,46 @@
 	},
 	"buffers":
 	[
-<<<<<<< HEAD
 		{
-			"contents": "",
-			"file": "_includes/footer.html",
-			"file_size": 0,
-			"file_write_time": 130255678549012207,
+			"file": "index.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 8895,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "",
-			"file": "_includes/header.html",
-			"file_size": 0,
-			"file_write_time": 130255686503532117,
+			"file": "_layouts/project_detail.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 329,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title>Michele Pratusevich</title>\n	<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0\">\n	<meta name=\"description\" content=\"Michele Pratusevich personal page\">\n	<meta name=\"author\" content=\"Michele Pratusevich\">\n	<meta charset=\"UTF-8\">\n	<meta name=\"keywords\" content=\"personal, blog, projects, design\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\">\n	<script type=\"text/javascript\" src=\"jquery-1.9.1.min.js\"></script>\n	<script type=\"text/javascript\" src=\"http://code.jquery.com/jquery-latest.min.js\"></script>\n	<!-- // <script type=\"text/javascript\" src=\"d3.v3.min.js\"></script> -->\n	<!--  <script src=\"http://d3js.org/d3.v3.min.js\" charset=\"utf-8\"></script> -->\n	<script type=\"text/javascript\" src=\"main.js\"></script>\n\n	<!-- Google Analytics -->\n	<script>\n	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n	  ga('create', 'UA-44633314-1', 'mprat.github.io');\n	  ga('send', 'pageview');\n\n	</script>\n</head>\n\n<body>\n	<header class=\"main\">\n	<!-- <span class=\"left-float-content\"> -->\n	<h1>Michele Pratusevich</h1>\n	<h2>engineer, instructor, traveler</h2>\n	<!-- </span> -->\n\n	<!-- <span class=\"right-float-content\"> -->\n	<ul class=\"links-list\"> \n	<li class=\"links-list-item custom-list-item\"><a href=\"https://github.com/mprat\" target=\"_blank\"><img id=\"github_logo_mini\" class=\"ext-logo-link\" src=\"imgs/github-mark-32px.png\" alt=\"View Michele Pratusevich's GitHub page\"></a></li>\n	<li class=\"links-list-item custom-list-item\"><a href=\"http://www.flickr.com/photos/mpratland/\" target=\"_blank\"><img id=\"flickr_ext_link\" class=\"ext-logo-link flickr_logo_mini\" src=\"imgs/white-small-chiclet.png\" alt=\"Michele Pratusevich's Flickr photostream\"></a></li>\n	<li class=\"links-list-item custom-list-item\"> <a href=\"http://www.linkedin.com/pub/michele-pratusevich/19/859/43b\" target=\"_blank\"><img id=\"linkedin_logo_mini\" class=\"ext-logo-link\" src=\"imgs/linkedin_btn_in_20x15.png\" alt=\"View Michele Pratusevich's LinkedIn profile\"></a> </li>\n	<li class=\"links-list-item custom-list-item\"><a id=\"resume_link\" href=\"docs/resume.pdf\" target=\"_blank\">Resume (PDF)</a></li>\n	</ul>\n	<!-- </span> -->\n\n	</header>\n\n	<div id=\"ext-links\">\n	<!-- <div class=\"right-float-content\"> -->\n\n	<!-- <img class=\"thumbnail\" src=\"imgs/umbrella_hat.jpg\" alt=\"Michele wearing an umbrella hat.\"> -->\n	</div>\n	</div>\n\n	<div class=\"main\">\n\n	<div id=\"about\">\n		<p>I graduated from MIT in June 2013 with a BS in electrical engineering and computer science, doing coursework in computer vision and computer graphics (among other things). I am a pathological dilletante - I work on multiple projects at the same time and I love it. I am passionate about technology and education, and think that traveling is the true way to grow as a person. Here is a collection of projects / activities I have done over the past few years. Any questions, comments, concerns, feel free to contact me at mprat (at) alum (dot) mit (dot) edu.</p>\n	</div>\n\n	<div class=\"home-container\">\n		<!-- <div class=\"main-concept\" id=\"tech\">\n	<h1>Tech</h1>\n	</div>\n\n	<div class=\"main-concept\" id=\"art\">\n	<h1>Art</h1>\n	</div>\n\n	<div class=\"main-concept\" id=\"ed\">\n	<h1>Education</h1>\n	</div> -->\n\n	<ul class=\"nopadding\">\n		<li class=\"project custom-list-item\" id=\"terminus\" data-tech=\"100\" data-art=\"0\" data-ed=\"100\"><h1>Terminus</h1></li>\n		<li class=\"project custom-list-item\" id=\"meet\" data-tech=\"34\" data-art=\"33\" data-ed=\"33\"><h1>MEET</h1></li>\n	</ul>\n	</div>\n\n	<div class=\"btn-container\">\n	<button class=\"home-btn\"><h3>Home</h3></button>\n	</div>\n	<div class=\"project-detail detail-display\" id=\"terminus-detail\"> \n	<h1>Terminus</h1>\n	<h2>tech, ed, and a bit of art</h2>\n	<p class=\"detail-text\">Terminus is an online text-based adventure game that teaches the player how to use terminal commands. The terminal and text-based adventure interfaces are very similar, making the transition from game to product more seamless than before. Gamification! Project designed, coded, and decorated by Shawn Conrad, Michaela LaVan,Michele Pratusevich, Emma Tolley, David Zhou. </p>\n	<p class=\"detail-text\">Making it to the semifinals of the MIT iCampus Prize Competition in spring 2013, Terminus provides a solution to a freshman problem at MIT: the computing environment is Ubuntu Linux, and there are many custom commands on the MIT Debathena Computing system that incoming freshmen are not familiar with. By playing Terminus, they can become more familiar with both the command-line environment and the MIT computing environment.</p>\n	<p class=\"detail-text\"><a href=\"http://terminusgame.mit.edu\" target=\"_blank\"> Play it! </a></p>\n	<p class=\"detail-text\">Please leave feedback as a Github <a href=\"https://github.com/mprat/Terminus/issues?state=open\" target=\"_blank\"> issue</a>.</p>\n	<p class=\"detail-text\"><iframe src=\"http://ghbtns.com/github-btn.html?user=mprat&repo=Terminus&type=watch\" frameborder=\"0\" scrolling=\"0\" style=\"width:50px; height: 20px;\" allowTransparency=\"true\"></iframe></p>\n	</div>\n\n	<div class=\"project-detail detail-display\" id=\"meet-detail\">\n	<h1>MEET</h1>\n	<h2>tech, ed</h2>\n	<p class=\"detail-text\">From August 2013 to August 2014, I am a full-time staff member at MEET based in Jerusalem. MEET is an NGO that aims to empower Israeli and Palestinian youth to bring about positive change in their communities and solve complex problems by teaching them computer science and business skills over three years in an after-school high school program. <img class=\"detail-img thumbnail\" src=\"imgs/meet_students_working1.jpg\" alt=\"MEET students working hard.\"></p> \n\n	<p class=\"detail-text\"> I worked for MEET as an instructor in summer 2013 teaching web programming (MVC patterns, Django, HTML, CSS, Javascript). During the year, I am teaching all computer science classes, designing labs and lessons, and designing the new year 2 yearlong program.</p>\n\n	<p class=\"detail-text\"> Student computer science curriculum:</p>\n	<ul class=\"detail-list\">\n		<li class=\"detail-text\"> Year 1:</li>\n			<ul class=\"detail-list\">\n			<li class=\"detail-text\"> Summer: Introduction to programming (python) </li>\n			<li class=\"detail-text\"> Yearlong: Skill building, personal projects, HTML/CSS introduction </li>\n			</ul>\n		<li class=\"detail-text\"> Year 2: </li>\n			<ul class=\"detail-list\">\n			<li class=\"detail-text\"> Summer: Web programming (MVC design pattern, HTML/CSS, Javascript, Django) </li>\n			<li class=\"detail-text\"> Yearlong: Skill practice, integration with business, group project ideation and workplan </li>\n			</ul>\n		<li class=\"detail-text\"> Year 3: </li>\n			<ul class=\"detail-list\">\n			<li class=\"detail-text\"> Summer: Group project completion</li>\n			</ul>\n	</ul>\n\n	<p class=\"detail-text\"> See more photos from MEET on <a href=\"http://www.flickr.com/photos/mpratland/sets/72157634571668890/\" target=\"_blank\"><img class=\"ext-logo-link flickr_logo\" src=\"imgs/white-flickr.png\" alt=\"Michele Pratusevich's MEET Flickr album\"></a>. </p>\n	</div>\n\n	</div>\n	<footer>Copyright Michele Pratusevich, 2013. Hosted by <a href=\"http://pages.github.com/\" target=\"_blank\">Github Pages</a>.</footer>\n\n</body>\n\n</html>",
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 1631,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "index.html",
-			"file_size": 7408,
-			"file_write_time": 130255686536332117,
 			"settings":
 			{
-				"buffer_size": 7408,
+				"buffer_size": 1225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 2615,
 				"line_ending": "Unix"
 			}
 		}
-=======
->>>>>>> jekyll
 	],
 	"build_system": "",
 	"command_palette":
@@ -267,7 +283,14 @@
 	},
 	"file_history":
 	[
+		"/home/mprat/Documents/Michele/Repos/personal-website/projects/meet.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/_site/projects/meet.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/terminus.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/meet.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/personal-website.sublime-project",
 		"/home/mprat/Documents/Michele/Repos/personal-website/index.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/_includes/indexjs.html",
+		"/home/mprat/Documents/Michele/Repos/personal-website/_layouts/default.html",
 		"/home/mprat/Documents/Michele/Repos/personal-website/main.js",
 		"/home/mprat/Documents/Michele/Repos/personal-website/main.css",
 		"/home/mprat/Documents/Michele/Repos/personal-website/footer.html",
@@ -275,14 +298,12 @@
 		"/home/mprat/Documents/Michele/Repos/personal-website/_config.yaml",
 		"/home/mprat/Documents/Michele/Repos/personal-website/main.html",
 		"/home/mprat/Documents/Michele/Repos/personal-website/Gemfile",
-		"/home/mprat/Documents/Michele/Repos/personal-website/terminus.html",
 		"/home/mprat/Dropbox/Resumes, etc./resume_complete.tex",
 		"/home/mprat/Documents/Michele/Repos/y1-yearlong-python-example/program.py",
 		"/home/mprat/Desktop/blogdraft.txt",
 		"/home/mprat/Documents/Michele/Repos/y2-yearlong-django-review/toplists/movies/views.py",
 		"/home/mprat/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/mprat/Documents/Michele/Repos/personal-website/imgs/github_banner.png",
-		"/home/mprat/Documents/Michele/Repos/personal-website/personal-website.sublime-project",
 		"/home/mprat/Documents/Michele/jump_challenge/calculations.m",
 		"/home/mprat/Documents/Michele/Repos/Bemis-100/bemis100.sublime-project",
 		"/home/mprat/Documents/Michele/MIT/Fall2012/6.869/breadboard-to-pcb/with_PIL/main.py",
@@ -328,6 +349,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
+			"project",
+			".project-detail",
+			"color",
+			"project",
+			"h2",
+			"000000",
+			"background",
+			"detail-te",
+			".project-",
+			"5%",
+			"h2",
+			"ul.detail-",
+			"p ",
+			"p",
+			"project-detail",
+			"project-cont",
+			"2%",
+			".project-detail",
+			"80%",
+			"inherit",
+			"ul.det",
+			"ul.deta	",
+			"about",
+			"footer",
+			"foooter",
+			"80%",
+			"h2",
+			"header",
+			"project-",
+			"home-con",
+			"project-detail",
+			"width: 80",
+			"position: a",
+			"project-de",
+			"terminus",
 			"margin-left",
 			"footer",
 			"home-container",
@@ -419,43 +476,7 @@
 			"h1",
 			">\n",
 			"59",
-			"strip",
-			"main-container",
-			"8b10",
-			"b10",
-			"190",
-			"8048aa0",
-			"08049b04",
-			"_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E",
-			"804b65",
-			"804b65c",
-			"0x804b65c",
-			"80489b0",
-			"804b6b8",
-			"0x804b6b8",
-			"rand@",
-			"got.plt",
-			"0x080489c0",
-			"ret",
-			"<_fini",
-			"_fini>",
-			"_fini<",
-			"_fini",
-			"ret",
-			"804b6c4",
-			"804b65",
-			"804b65c",
-			"_ZNSsC1Ev",
-			"80489d0",
-			"<rand@plt>",
-			"(bad)",
-			"804b6a4",
-			"0x804b6a4",
-			"<time@plt>",
-			"<time",
-			"804b664",
-			"0x804b664",
-			"_ZNSsC1Ev"
+			"strip"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -473,24 +494,52 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
-<<<<<<< HEAD
 				{
 					"buffer": 0,
-					"file": "_includes/footer.html",
+					"file": "index.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 8895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5282,
+								5282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3911.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/project_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
 							]
 						],
 						"settings":
@@ -504,25 +553,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "_includes/header.html",
+					"buffer": 2,
+					"file": "index.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								723,
+								723
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -532,20 +581,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7408,
+						"buffer_size": 1225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1382,
-								1382
+								733,
+								733
 							]
 						],
 						"settings":
@@ -554,19 +603,45 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2343,
+								2343
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				}
-=======
->>>>>>> jekyll
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -598,7 +673,7 @@
 	"project": "personal-website.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
