@@ -149,7 +149,7 @@ p {
 	margin-bottom: 1em;
 }
 
-p, li.detail-text, header a {
+p, li.detail-text, header a, nav > ul > li {
 	/*font-family: Georgia, sans-serif; */
 /*	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
 	/*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
@@ -282,10 +282,14 @@ ul.detail-list{
 	top: 45px;
 }*/
 
-.links-list-item{
+.links-list-item, nav > ul > li{
 	/*margin: 10px 10px 10px 10px;*/
 	margin: 5px;
 	display: inline-block;
+}
+
+nav {
+	text-align: center;
 }
 
 .custom-list-item{
@@ -433,6 +437,15 @@ footer{
 	margin: 0;
 	display: inline-block;
 	float: left;
+}
+
+nav > ul > li {
+	border-style: solid;
+	border-width: 2px;
+	/*background: red;*/
+	border-radius: 10%;
+	padding: 2px;
+	margin: 0;
 }
 
 @media all and (min-width: 550px){
