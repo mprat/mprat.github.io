@@ -7,3 +7,5 @@ destination: ./_site
 port: 4000
 # baseurl: /
 # url: http://localhost:4000
+# permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:title.html
