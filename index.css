@@ -94,6 +94,10 @@ header h1, header h2, .links-list{
 	font-size: 1.5em;
 	/*font-weight: normal;*/
 	/*color: #000000;*/
+	vertical-align: middle;
+	height: inherit;
+	width: inherit;
+	display: table-cell;
 }
 
 .project-detail h1{
