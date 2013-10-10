@@ -39,6 +39,10 @@
 	<li class="links-list-item custom-list-item"><a id="resume_link" href="{{ site.url }}/docs/resume.pdf" target="_blank">Resume (PDF)</a></li>
 	</ul>
 
+	{% if page.nav %}
+		{% include nav.html %}
+	{% endif %}
+
 	</header>
 
 	<div class="main">
