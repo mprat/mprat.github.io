@@ -258,7 +258,7 @@ ul.detail-list{
 
 .project-detail{
 	/*height: 600px;*/
-	/*background: #9ED2FF;*/
+	/*background: #9ED2FF;*/f
 	/*background: #5D8BB2;*/
 	/*background: #4B708F;*/
 	/*background: #0C0A0A;*/
@@ -496,6 +496,14 @@ nav > ul > li > a{
 	margin-right: auto;
 	display: block;
 	width: 250px;
+}
+
+i{
+	font-style: italic;
+}
+
+code{
+	font-family: monospace;
 }
 
 @media all and (min-width: 550px){
