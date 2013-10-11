@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Linux Learning Game
+title: Gamification and a Linux Learning Game
 categories: projects terminus
 project_id: terminus
 project_title: Terminus
@@ -32,8 +32,28 @@ From this we learn a lesson: the closer the metaphor is to the desired lesson le
 
 #### The task
 
-For the last group assignment for 11.127 (to create any kind of game in any medium with significant educational value), my group and I decided to apply exactly this last principle - relating .
+For the last group assignment for 11.127 (to create any kind of game in any medium with significant educational value), my group and I decided to apply exactly this last principle - closely relating the metaphor to the lesson - quite literally.
 
-#### The original team 
+#### The context
 
-Terminus is an online text-based adventure game that teaches the player how to use terminal commands. The terminal and text-based adventure interfaces are very similar, making the transition from game to product more seamless than before. Gamification! Project designed, coded, and decorated by Shawn Conrad, Michaela LaVan, Michele Pratusevich, Emma Tolley, David Zhou.
+The Linux command-line terminal is a daunting black box. First looking at it, it looks like a void of nothingness waiting to eat you alive. 
+![A screenshot of a Linux command-line terminal](/imgs/terminal.png){: #terminal-pic}
+
+But if you've ever used a terminal, you know that it's like exploring an unknown abyss, mapping a new land, discovering something new. For those who have played the 1977 interactive fiction text-based adventure, *Zork*, this is nothing new. *Zork*, the quintessential text-based adventure game written at MIT from 1977-1979, is arguably the most well-known text-based adventure game, originally written by Tim Anderson, Marc Blank, Bruce Daniels, and Dave Lebling from the MIT Dynamic Modeling Group. 
+![Screenshot of Zork being played on a Linux machine](/imgs/zork.png){: #zork-pic}
+
+For a more detailed game-oriented history of Zork, check out [this Gamasutra article](http://www.gamasutra.com/view/feature/1499/the_history_of_zork.php?print=1).
+
+But Zork was only played by computer nerds of the 1970s (and beyond). To play it required at least a familiarity of a terminal (back then it was a DOS box, much scarier than today's modern Linux terminal). 
+
+By today's standards, Zork is not a "modern game," but back then, it used the most advanced user-input techniques of the time: the keyboard and the DOS prompt. Shockingly (or perhaps not), the text-based adventure game model mimics what the programmers of that era knew inside and out - terminal commands. 
+
+#### The main idea; the main goal
+
+Given the similarity between a user-terminal interaction and a user-text-based-adventure-game interaction, the Terminus team decided to tackle the problem of teaching users how to use the terminal through a gamified text-based adventure game.
+
+The main goal: to make the command-line terminal a less scary place. To use the techniques of gamification to teach terminal commands to users. 
+
+#### The original team
+
+The original team was formed after discussion about the game idea during the 11.127 class sessions: Shawn Conrad '12/MEng '13, Michaela LaVan '12, Michele Pratusevich '13, Emma Tolley '11, and David Zhou '12 were the original team members. Most of the artwork credit goes to Emma Tolley, with later artwork being added by Shawn Conrad. Original storyboarding by Michaela LaVan and David Zhou.
