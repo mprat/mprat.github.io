@@ -70,7 +70,14 @@ h1{
 	font-weight: bold;
 	/*font-family: 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif; */
 	/*font-family: Monaco, Consolas, "Lucida Console", monospace;*/
+}
+
+h1, h4{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h4{
+	text-transform: uppercase;
 }
 
 header h1{
@@ -148,11 +155,11 @@ p, ul.detail-list{
 	padding: 0;
 }
 
-p.detail-text, p{
+p.detail-text, p, h4{
 	padding: 0 30px 0 30px;
 }
 
-p { 
+p, h4 { 
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
@@ -162,8 +169,11 @@ p, li.detail-text, header a, nav > ul > li {
 /*	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
 	/*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
 	font-family: "Book Antiqua", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	font-size: 1.2em;
 	line-height: 1.5em;
+}
+
+p, li.detail-text, header a, nav > ul > li, h4{
+	font-size: 1.2em;
 }
 
 ul.detail-list{
