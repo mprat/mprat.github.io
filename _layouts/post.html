@@ -8,7 +8,7 @@ layout: default
 <p><-- Back to the <a href="{{ site.url }}/{{ page.categories | join: '/' }}">{{ page.project_title }}</a> page.</p>
 <!-- </div> -->
 
-{% include post_box.html post=page %}
+{% include post_box.html post=page full=true %}
 
 {% include all_posts.html project_id=page.project_id project_title=project_title %}
 

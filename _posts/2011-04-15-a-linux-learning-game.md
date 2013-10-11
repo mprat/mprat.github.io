@@ -8,6 +8,10 @@ project_title: Terminus
 
 #### The beginning: a class
 
+What started as a final project for a class ended up as an effective Linux-learning game.
+
+<!--more-->
+
 This semester (Spring 2011) I took one of the most enjoyable classes I have ever taken at MIT: 11.127/CMS.590, or Educational Games, taught by [Professor Eric Klopfer](http://education.mit.edu/people/eric-klopfer) from the Urban Studies and Planning department. (Since then, the class has been renamed [Computer Games and Simulations for Education and Exploration](http://education.mit.edu/classes/11127).) The main goal of the class was to discuss and utilize gamification techniques to create games that were both educational and fun. At the end of the semester, our project groups were to use the gamification principles we studied to create effective learning games.
 
 #### Gamification
