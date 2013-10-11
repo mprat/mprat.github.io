@@ -7,6 +7,6 @@
 	{% if include.full %}
 		{{ include.post.content | markdownify }}
 	{% else %}
-		{{ include.post.excerpt | markdownify }}
+		{{ include.post.content | split: '<!-- more -->' | first | markdownify }}
 	{% endif %}
 </div>
