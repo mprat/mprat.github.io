@@ -3,17 +3,13 @@ layout: default
 ---
 
 <div class="home-container">
+<!-- 
+<div class="project-detail"> -->
+<p><-- Back to the <a href="{{ site.url }}/{{ page.categories | join: '/' }}">{{ page.project_id | capitalize }}</a> page.</p>
+<!-- </div> -->
 
-<!-- <div class="btn-container">
-	<button class="home-btn"><h3>Home</h3></button>
-</div> -->
+{% include post_box.html post=page %}
 
-<!-- <div class="project-detail detail-display" id="{{ page.project_id }}-detail">
-<h1> {{ page.project_title }}</h1>
-<h2> {{ page.project_tagline }}</h2> -->
-
-{{ content }}
-
-</div>
+{% include all_posts.html project_id=page.project_id %}
 
 </div>

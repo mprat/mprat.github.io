@@ -4,37 +4,17 @@ layout: default
 
 <div class="home-container">
 
-<!-- <div class="btn-container">
-	<button class="home-btn"><h3>Home</h3></button>
-</div> -->
-
-<div class="project-detail detail-display" id="{{ page.project_id }}-detail">
+<div class="project-detail">
 <h1> {{ page.project_title }}: </h1><h2> {{ page.project_tagline }}</h2>
 {{ content }}
 </div>
 
 {% for post in site.posts %}
     {% if post.categories contains page.project_id %}
-	    <div class="project-detail detail-display">
-	    	<h3>{{ post.date | date: "%B %-d, %Y" }}</h3>
-	    	<h1>{{ post.title }}</h1>
-	    	{% if post.subtitle %}
-	    	<h2>{{ post.subtitle }}</h2>
-	    	{% endif %}
-	    	{{ post.content }}
-	    </div>
+	    {% include post_box.html post=post %}
     {% endif %}
 {% endfor %}
 
-<div class="project-detail detail-display">
-<h1>All Posts</h1>
-<!-- <ul class="detail-list"> -->
- {% for post in site.posts %}
- 	{% if post.categories contains page.project_id %}
-		      <p>{{ post.date | date: "%Y %B %-d" }} -- <a href="{{ post.url }}">{{ post.title }}</a></p>
-	{% endif %}
-  {% endfor %}
- <!-- </ul> -->
- </div>
+{% include all_posts.html project_id=page.project_id %}
 
 </div>
