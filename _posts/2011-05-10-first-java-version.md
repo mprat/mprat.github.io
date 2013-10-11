@@ -28,7 +28,7 @@ A text-based adventure could only be successful if the gameplay, plot, and activ
 
 We settled on a basic gameplay that drew analogies between terminal concepts and fantastical experiences: 
 
-| computer | abstraction |
+| **computer** | **abstraction** |
 |--:|:--|
 | filesystem | a series of rooms|
 | terminal commands | spells|

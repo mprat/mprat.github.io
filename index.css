@@ -178,7 +178,7 @@ p, li.detail-text, header a, nav > ul > li, table, tr, td {
 	line-height: 1.5em;
 }
 
-p, li.detail-text, header a, nav > ul > li, h4, td{
+p, li.detail-text, header a, nav > ul > li, h4, td, th{
 	font-size: 1.2em;
 }
 
@@ -531,8 +531,13 @@ td, th{
 }
 
 td{
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .right-text{
