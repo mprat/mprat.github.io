@@ -15,16 +15,15 @@ layout: default
 
 {{ content }}
 
-
-
-<ul>
+<div class="project-detail detail-display">
+<h1>All Posts</h1>
+<!-- <ul class="detail-list"> -->
  {% for post in site.posts %}
  	{% if post.categories contains page.project_id %}
-		    <li>
-		      <a href="{{ post.url }}">{{ post.title }}</a>
-		    </li>
+		      <p>{{ post.date | date: "%Y %B %-d" }} -- <a href="{{ post.url }}">{{ post.title }}</a></p>
 	{% endif %}
   {% endfor %}
- <ul>
+ <!-- </ul> -->
+ </div>
 
 </div>
