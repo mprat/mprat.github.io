@@ -170,7 +170,7 @@ p, h4 {
 	margin-bottom: 1em;
 }
 
-p, li.detail-text, header a, nav > ul > li {
+p, li.detail-text, header a, nav > ul > li, table, tr, td {
 	/*font-family: Georgia, sans-serif; */
 /*	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
 	/*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
@@ -178,7 +178,7 @@ p, li.detail-text, header a, nav > ul > li {
 	line-height: 1.5em;
 }
 
-p, li.detail-text, header a, nav > ul > li, h4{
+p, li.detail-text, header a, nav > ul > li, h4, td{
 	font-size: 1.2em;
 }
 
@@ -484,7 +484,7 @@ nav > ul{
 nav > ul > li > a{
 	text-decoration: none;
 }
-
+f
 .no-decoration{
 	text-decoration: none;
 	color: black;
@@ -524,6 +524,19 @@ code{
 	margin-right: auto;
 	display: block;
 	width: 305px;
+}
+
+td, th{
+	padding: 5px;
+}
+
+td{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.right-text{
+	text-align: right;
 }
 
 @media all and (min-width: 550px){
