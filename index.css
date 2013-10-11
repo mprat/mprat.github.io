@@ -131,6 +131,8 @@ h3{
 	font-weight: bold;
 	font-size: 16px;
 	margin: 0;
+	margin-left: 2%;
+	float: right;
 }
 
 h4{

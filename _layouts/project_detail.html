@@ -10,10 +10,21 @@ layout: default
 
 <div class="project-detail detail-display" id="{{ page.project_id }}-detail">
 <h1> {{ page.project_title }}: </h1><h2> {{ page.project_tagline }}</h2>
-<p class="detail-text">Terminus is a text-based adventure game that teaches users how to use terminal commands.</p>
+{{ content }}
 </div>
 
-{{ content }}
+{% for post in site.posts %}
+    {% if post.categories contains page.project_id %}
+	    <div class="project-detail detail-display">
+	    	<h3>{{ post.date | date: "%B %-d, %Y" }}</h3>
+	    	<h1>{{ post.title }}</h1>
+	    	{% if post.subtitle %}
+	    	<h2>{{ post.subtitle }}</h2>
+	    	{% endif %}
+	    	{{ post.content }}
+	    </div>
+    {% endif %}
+{% endfor %}
 
 <div class="project-detail detail-display">
 <h1>All Posts</h1>
