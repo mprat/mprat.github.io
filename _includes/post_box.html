@@ -4,5 +4,5 @@
 	{% if include.post.subtitle %}
 		<h2>{{ include.post.subtitle }}</h2>
 	{% endif %}
-	{{ include.post.content }}
+	{{ include.post.content | markdownify }}
 </div>
