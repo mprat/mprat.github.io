@@ -5,9 +5,5 @@ source: .
 destination: ./_site
 
 port: 4000
-# permalink: pretty
-# baseurl: /
-# url: http://localhost:4000
-# permalink: /:categories/:year/:month/:day/:title.html
-# permalink: /:title.html
 markdown: kramdown
+   # use_coderay: true
