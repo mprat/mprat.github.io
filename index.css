@@ -551,13 +551,13 @@ b, strong {
 #terminus-java1{
 	margin-left: auto;
 	margin-right: auto;
-	width: 320px;
+	width: 90%;
 	display: block;
 }
 
 @media all and (min-width: 320px){
-	#github-stars{
-		width: 310px;
+	#github-stars, #terminus-java1{
+		width: 315px;
 	}
 }
 
