@@ -40,4 +40,6 @@ You need to install the following packages:
 5. {: .detail-text} PROFIT!
 {: .detail-list}
 
+![Screenshot of Zork being played on a Linux machine](/imgs/zork.png){: #zork-pic}
+
 Enjoy the fun that is Zork!
