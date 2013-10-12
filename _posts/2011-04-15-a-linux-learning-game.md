@@ -48,7 +48,7 @@ But if you've ever used a terminal, you know that it's like exploring an unknown
 
 For a more detailed game-oriented history of Zork, check out [this Gamasutra article](http://www.gamasutra.com/view/feature/1499/the_history_of_zork.php?print=1).
 
-But Zork was only played by computer nerds of the 1970s (and beyond). To play it required at least a familiarity of a terminal (back then it was a DOS box, much scarier than today's modern Linux terminal). 
+But Zork was only played by computer nerds of the 1970s (and beyond). To play it required at least a familiarity of a terminal (back then it was a DOS box, much scarier than today's modern Linux terminal). (Incidentally, if you want to play it and use Linux, [here's how]({% post_url 2011-04-28-playing-zork-on-linux %}))
 
 By today's standards, Zork is not a "modern game," but back then, it used the most advanced user-input techniques of the time: the keyboard and the DOS prompt. Shockingly (or perhaps not), the text-based adventure game model mimics what the programmers of that era knew inside and out - terminal commands. 
 
