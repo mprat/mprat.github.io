@@ -527,7 +527,7 @@ code{
 }
 
 td, th{
-	padding: 5px;
+	padding: 10px;
 }
 
 td{
@@ -542,6 +542,10 @@ table{
 
 .right-text{
 	text-align: right;
+}
+
+b, strong {
+	font-weight: bold;
 }
 
 @media all and (min-width: 550px){

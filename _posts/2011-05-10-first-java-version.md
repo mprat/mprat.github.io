@@ -34,6 +34,22 @@ We settled on a basic gameplay that drew analogies between terminal concepts and
 | terminal commands | spells|
 | the cursor | you, the main character|
 
+And instead of commands like "go north", we used parallels from the computing world to explain the new "spells":
+
+| **command** | **abstraction** |
+|--:|:--|
+| cd | "change direction" |
+| ls | "look at your surroundings" |
+| grep | a cute sidekick elf |
+
+A huge benefit of the game being themed around magic is that 
+
+SIMULATED CONTROLLED ENVIRONMENT
+
+SPELL ABSTRACTION
+
+GRAPHICS
+
 #### Java is the chosen one
 
 I was nearing the end of my sophomore year at MIT when the Terminus project started. At that point, I was not yet a declared computer science major. I had taken 6.01, MIT's introductory computer science class taught in very basic python, but the language I was most familiar with was Java. I had taken it in high school just 2-3 years before, and was taking 6.005, MIT's software development class taught in Java, that semester. 
