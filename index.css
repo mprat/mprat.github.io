@@ -600,6 +600,10 @@ li > p{
 	}
 }
 
+.levelmap{
+	width: 100%;
+}
+
 @media all and (min-width: 720px), all and not (orientation: portrait){
 /*@media all and (min-target-densitydpi=device-dpi){*/
 	.links-list{
