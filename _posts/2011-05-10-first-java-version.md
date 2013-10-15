@@ -64,7 +64,7 @@ The environment itself was designed to be completely safe - you cannot execute a
 
 Lastly, we decided that the game would benefit from pictures that added to the allure of the game. Retro-pixel-art graphics would add to the gamification, bringing in silly pictures to reward the user when they typed correct commands. 
 
-![Screenshot of the opening page of Terminus, the first Java version](/imgs/terminus_java1.png){: #terminus-java1}
+![Screenshot of the opening page of Terminus, the first Java version](/imgs/terminus_java1.png){: .terminus-java1}
 
 The aesthetic was clean and simple: terminal on the left, rewarding picture on the right.
 
