@@ -179,7 +179,8 @@ p, li.detail-text, header a, nav > ul > li, table, tr, td {
 }
 
 li.detail-text, header a, nav > ul > li, h4, td, th, p{
-	font-size: 1.2em;
+	/*font-size: 1.2em;*/
+	font-size: 12pt;
 }
 
 li > p, li > code{
