@@ -7,6 +7,8 @@ project_title: MEET
 published: false
 ---
 
+While I was at MIT, I heard about a program called MEET, an NGO that brings Israeli and Palestinian students together through the hard task of learning computer science and business.
+
 I worked for MEET as an instructor in summer 2013 teaching web programming (MVC patterns, Django, HTML, CSS, Javascript). 
 
 <p class="detail-text"> Student computer science curriculum:</p>
