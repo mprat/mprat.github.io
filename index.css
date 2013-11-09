@@ -392,20 +392,20 @@ button:hover{
 	height: 33px;
 }
 
-#linkedin_logo_mini{
+/*#linkedin_logo_mini{
 	width: 24px;
 	height: 18px;
-}
+}*/
 
 #github_logo{
 	width: 147px;
 	height: 26px;
 }
 
-#github_logo_mini{
+/*#github_logo_mini{
 	width: 32px;
 	height: 32px;
-}
+}*/
 
 #flickr_logo{
 	width: 56px;
@@ -600,6 +600,14 @@ ol{
 li > p{
 	padding: 0;
 	margin: 0;
+}
+#linkedin_logo_mini{
+	width: 24px;
+	height: 18px;
+}
+#rss_img, #github_logo_mini, #linkedin_logo_mini, #flickr_ext_link{
+	width: 30px;
+	height: 30px;
 }
 
 @media all and (min-width: 320px){
