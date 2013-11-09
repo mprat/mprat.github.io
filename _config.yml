@@ -4,6 +4,9 @@ pygments: true
 source: .
 destination: ./_site
 title: Michele Pratusevich is a pathological dilettante
+author: 
+  name: Michele Pratusevich
+  email: michele.pratusevich@gmail.com
 
 port: 4000
 markdown: kramdown
