@@ -385,6 +385,7 @@ button:hover{
 .ext-logo-link{
 	vertical-align: middle; 
 	border: 0;
+	display: inline;
 }
 
 #linkedin_logo{
