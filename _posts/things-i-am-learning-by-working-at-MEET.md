@@ -4,6 +4,7 @@ title: Things I am Learning from Working at MEET
 categories: projects MEET
 project_id: meet
 project_title: MEET
+published: false
 ---
 
 * Drafts, drafts, drafts, re-writes, drafts, feedback, re-writes actually helps create more concrete assignments in the future

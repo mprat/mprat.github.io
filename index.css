@@ -87,7 +87,7 @@ header h1{
 	/*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
 	/*font-family: Futura;*/
 	/*text-transform: uppercase;*/
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	font-weight: bold;
 	font-size: 30px;
 	top: 20%;
@@ -97,17 +97,12 @@ header h1, #links-list{
 	height: 50px;
 }
 
-#resume-link, header h1{
+.text-link, header h1{
 	font-family: Tahoma, sans-serif;
 }
 
 header h1, header h2, .links-list{
 	text-align: center;
-}
-
-header h1:hover, a > h1:hover{
-	text-decoration: underline;
-	color: blue;
 }
 
 a > h1{
@@ -513,7 +508,7 @@ nav > ul{
 nav > ul > li > a{
 	text-decoration: none;
 }
-f
+
 .no-decoration{
 	text-decoration: none;
 	color: black;
@@ -609,6 +604,10 @@ li > p{
 #rss_img, #github_logo_mini, #linkedin_logo_mini, #flickr_ext_link{
 	width: 30px;
 	height: 30px;
+}
+
+.name-header{
+	padding-top: 15px;
 }
 
 @media all and (min-width: 320px){
