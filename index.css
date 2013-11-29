@@ -429,6 +429,7 @@ img{
 	/*background: red;*/
 	/*position: relative;*/
 	float: left;
+	/*width: 45%;*/
 }
 
 .right-float-content{
@@ -649,6 +650,7 @@ li > p{
 		float:right;*/
 		/*padding-left: 5%;
 		padding-right: 5%;*/
+		width: 45%;
 	}
 
 /*	.project-detail, .btn-container{
