@@ -153,11 +153,7 @@ h3{
 	float: right;
 }
 
-p, ul.detail-list{
-	padding: 0;
-}
-
-p.detail-text, p, h4{
+p, h4{
 	padding: 0 30px 0 30px;
 }
 
@@ -166,7 +162,7 @@ p, h4 {
 	margin-bottom: 1em;
 }
 
-p, li.detail-text, nav > ul > li, table, tr, td {
+p, nav > ul > li, table, tr, td, .project-detail > ul, .project-detail > ol {
 	/*font-family: Georgia, sans-serif; */
 /*	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
 	/*font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
@@ -174,24 +170,24 @@ p, li.detail-text, nav > ul > li, table, tr, td {
 	line-height: 1.5em;
 }
 
-li.detail-text, header a, nav > ul > li, h4, td, th, p{
+header a, nav > ul > li, h4, td, th, p, .project-detail > ul, .project-detail > ol, li > p, li > code{
 	/*font-size: 1.2em;*/
 	font-size: 12pt;
 }
 
-li > p, li > code{
-	font-size: 1em;
-}
-
-li > pre{
+/*li > pre{
 	font-size: .8em;
-}
+}*/
 
-ul.detail-list, ol.detail-list{
+.project-detail > ol, .project-detail > ul{
 	padding-left: 10%;
 }
 
-ul.detail-list{
+.project-detail > ul > ul {
+	padding-left: 5%;
+}
+
+.project-detail > ul, .project-detail > ul > ul{
 	list-style-type: disc;
 }
 
@@ -453,7 +449,7 @@ i {
 	font-style: italic;
 }
 
-code{
+code, pre{
 	font-family: monospace;
 }
 
@@ -581,11 +577,11 @@ li > p{
 		text-align: left;
 	}
 
-	ul.detail-list, pre{
+	.project-detail > ul, .project-detail > ol, pre{
 		padding-left: 60px;
 	}
 
-	ul.detail-list ul.detail-list{
+	.project-detail > ul > ul{
 		padding-left: 30px;
 	}
 
@@ -606,7 +602,7 @@ li > p{
 		padding: 5px 10px 0 55px;
 	}
 
-	ul.detail-list, ol.detail-list{
+	.project-detail > ul, .project-detail > ol{
 		padding: 0 30px 0 60px;
 	}
 
