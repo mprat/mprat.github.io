@@ -13,3 +13,4 @@ production_url : http://mprat.org
 port: 4000
 markdown: kramdown
    # use_coderay: true
+comments: true

@@ -53,7 +53,7 @@ From the perspective of a student, I have a few qualms with this workflow:
 
 From the perspective of an instructor, I have a few qualms with this workflow: 
 
-*
+* 
 
 
 NOT READY FOR PRIME TIME 

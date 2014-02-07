@@ -1,0 +1,1 @@
+http://blog.moski.me/2012/01/gist-with-bloggers-dynamic-views.html
