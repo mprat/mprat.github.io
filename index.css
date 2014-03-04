@@ -179,6 +179,10 @@ header a, nav > ul > li, h4, td, th, p, .project-detail > ul, .project-detail > 
 	font-size: .8em;
 }*/
 
+em {
+	font-style: italic;
+}
+
 .project-detail > ol, .project-detail > ul{
 	padding-left: 10%;
 }
@@ -605,5 +609,4 @@ li > p{
 	.project-detail > ul, .project-detail > ol{
 		padding: 0 30px 0 60px;
 	}
-
 }
