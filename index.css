@@ -353,8 +353,16 @@ img{
 	margin: 1%;
 }
 
+.post-img{
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
 .project-container{
 	float: left;
+	width: 95%;
+	margin:auto;
 }
 
 .right-float-content{
@@ -544,11 +552,11 @@ li > p{
 	}
 }
 
-@media all and (min-width: 550px){
+/*@media all and (min-width: 720px){
 	#about{
 		width: 60%;
 	}
-}
+}*/
 
 .levelmap{
 	width: 100%;
