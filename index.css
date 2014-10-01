@@ -350,7 +350,7 @@ img{
 .detail-img{
 	float: right;
 	display: inline-block;
-	margin: 5px;
+	margin: 1%;
 }
 
 .project-container{
@@ -534,9 +534,9 @@ li > p{
 	padding-top: 15px;
 }
 
-/*.project-photo{
-	margin-top: -25%;
-}*/
+.project-photo{
+	height: 94%;
+}
 
 @media all and (min-width: 320px){
 	#github-stars, #terminus-java1, #terminal-pic, #zork-pic{

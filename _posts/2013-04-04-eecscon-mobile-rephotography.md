@@ -1,10 +1,10 @@
 ---
 layout: post
 title: EECSCon Poster
-categories: irephotography
+categories: projects irephotography
 project_id: irephotography
 project_title: iRephotography
-published: false
+published: true
 ---
 
 EECSCon is happening this coming Saturday! I made a poster describing my SuperUROP work on mobile rephotography. Check out my poster <a class="text_link" href="{{ site.url }}/docs/rephotography.pdf" target="_blank">here</a>!
