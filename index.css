@@ -117,9 +117,10 @@ a > h1{
 	/*font-weight: normal;*/
 	/*color: #000000;*/
 	vertical-align: middle;
-	height: inherit;
-	width: inherit;
-	display: table-cell;
+	/*height: inherit;*/
+	width: auto;
+	/*display: table-cell;*/
+	float:left;
 }
 
 .project-detail h1{
@@ -349,6 +350,7 @@ img{
 .detail-img{
 	float: right;
 	display: inline-block;
+	margin: 5px;
 }
 
 .project-container{
@@ -532,9 +534,9 @@ li > p{
 	padding-top: 15px;
 }
 
-.project-photo{
+/*.project-photo{
 	margin-top: -25%;
-}
+}*/
 
 @media all and (min-width: 320px){
 	#github-stars, #terminus-java1, #terminal-pic, #zork-pic{
@@ -615,7 +617,7 @@ li > p{
 		padding: 0 30px 0 60px;
 	}
 
-	.project-photo{
+/*	.project-photo{
 		margin-top: -25%;
-	}
+	}*/
 }
