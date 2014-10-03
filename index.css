@@ -228,15 +228,6 @@ em {
             box-shadow: 0 0 10px #353030;
 }
 
-.project:hover, nav > ul > li:hover{
-	background: #000000;
-	border-color: #5D8BB2;
-}
-
-.project:hover h1 {
-    /*color: #5D8BB2;*/
-}
-
 .main-concept{
 	background: #FFBAB7;
 	-webkit-transform: scale(.85);
