@@ -540,7 +540,8 @@ li > p{
 }
 
 .project-photo{
-	height: 94%;
+	height: 98px;
+	width: 125px;
 }
 
 /*header h1 {
