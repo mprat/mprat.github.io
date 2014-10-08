@@ -556,6 +556,10 @@ li > p{
 
 @media all and (min-width: 720px), all and not (orientation: portrait){
 /*@media all and (min-target-densitydpi=device-dpi){*/
+	header h1 {
+		padding: 10px;
+	}
+
 	.links-list{
 		position: absolute;
 	}
