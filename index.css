@@ -104,6 +104,10 @@ header h1, header h2, .links-list{
 	text-align: center;
 }
 
+header h2 {
+	padding: 20px;
+}
+
 a > h1{
 	color: black;
 }
@@ -563,6 +567,10 @@ li > p{
 /*@media all and (min-target-densitydpi=device-dpi){*/
 	header h1, header > h1 > a { 
 		padding-bottom: 0px;
+	}
+
+	header h2 {
+		padding: 0px;
 	}
 
 	.links-list{
