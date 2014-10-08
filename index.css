@@ -544,6 +544,11 @@ li > p{
 	width: 125px;
 }
 
+#headshot {
+	display: block;
+	padding-right: 1%;
+}
+
 /*header h1 {
 	padding: 10px;
 }*/
@@ -620,12 +625,18 @@ li > p{
 	}
 
 	#about{
-		width: 100%;
+		width: 75%;
+		height: 150px;
 	}
 
 	#about > p {
 		margin-left: 0;
 		padding-left: 0;
+	}
+
+	#headshot {
+		float: right;
+		display: inline;
 	}
 
 /*	h2{
