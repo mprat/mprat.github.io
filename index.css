@@ -80,6 +80,7 @@ h4{
 
 header h1, header > h1 > a{
 	padding: 0;
+	padding-bottom: 30px;
 	margin-top: 5%;
 	/*font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;*/
 	/*font-family: Futura;*/
@@ -538,6 +539,10 @@ li > p{
 	height: 94%;
 }
 
+header h1 {
+	padding: 10px;
+}
+
 @media all and (min-width: 320px){
 	#github-stars, #terminus-java1, #terminal-pic, #zork-pic{
 		width: 310px;
@@ -556,8 +561,8 @@ li > p{
 
 @media all and (min-width: 720px), all and not (orientation: portrait){
 /*@media all and (min-target-densitydpi=device-dpi){*/
-	header h1 {
-		padding: 10px;
+	header h1, header > h1 > a { 
+		padding-bottom: 0px;
 	}
 
 	.links-list{
