@@ -1,4 +1,36 @@
+12/8/14:
 
+Thesis: There is hope for peace between Israelis and Palestinians through technology and entrepreneurship. 
+
+Thesis 2: Leveraging differences between Israelis and Palestinians is the key to change in the Middle East.
+
+1. What is MEET
+	* Two sentence overview of context: separation between Israelis and Palestinians; belief that technology and entrepreneurship are the future; invest in future leaders with a network; solve hard problems together
+	* 3 year program; build relationships (example of alumni relationship / project currently)
+	* been around for 10 years
+	* bi-national staff
+2. Integrated curriculum
+	* hands-on
+	* project-based
+	* capstone project
+	* in a nutshell, lean startup + web dev 101
+	* exposure to social / political change projects
+	* draw on examples from the community
+	* students encouraged to choose projects directly affecting their communities
+	* two sentences on deeper understanding: learning about embracing, leveraging, and communicating differences
+3. Challenges
+	* English as a second language
+	* Concrete differences between Israeli and Palestinian school systems
+	* Students are young. 
+	* Security challenges / uncertainty / program and participants being flexible
+	* Maintaining "neutrality" as an instructor
+	* Battling normalization
+3. Hope
+	* examples from alumni network
+	* examples of student projects
+
+
+11/10/14:
 
 I spent the last year (roughly June 2013 - August 2014, with some small breaks) working in Jerusalem at [MEET](http://meet.mit.edu), a non-profit working with Israeli and Palestinian youth on computer science and entrepreneurship education.
 
