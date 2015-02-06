@@ -1,15 +1,29 @@
 ---
 layout: post
-title: TA Training, Dos and Don'ts
+title: Empowering Teaching Assistants
 categories: projects meet
 project_id: meet
 project_title: MEET
 published: false
 ---
 
-Goal: TAs take ownership of their own new job. 
+Everyone with authority in a classroom needs to have ownership over their role. That way, they can be seen as role models and be more effective in the classroom. 
 
-TA training (TA preparation? a la instructor prep vs instructor training) - these are the topics we covered (in scenario, act-them-out-as-you-see-fit form during the training week in the summer)
+[MEET](http://meet.mit.edu) relies on a staff of teaching assistants (or TAs) to support their instructors in the classroom. These TAs are often high school seniors who have just completed their own MEET experience, so their experience at the front of a classroom is minimal and their confidence is low. We try to solve this problem with MEET TA preparation. 
+
+The goal is simple: TAs should take ownership of their own (new) job. 
+
+## Training vs Preparation
+
+TA training (TA preparation? a la instructor prep vs instructor training) - 
+
+## A TA orientation session
+
+I think the best way for people to internalize topics is to experience them themselves. But because we also want to minimize classroom mess-ups, role-playing and discussion comes a close second. 
+
+What we did during a session was to split all the TAs into two groups, with a mix of experienced and new TAs 
+
+these are the topics we covered (in scenario, act-them-out-as-you-see-fit form during the training week in the summer)
 (1) Speak slow
 (2) Use simple words
 (3) Dealing with lots of questions
