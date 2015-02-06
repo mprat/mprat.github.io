@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Word Frequency in the King James Bible
-categories: yak-shaving
-project_id: yak-shaving
-project_title: Yak Shaving
+categories: misc
+project_id: misc
+project_title: Miscellaneous
 published: true
 ---
 

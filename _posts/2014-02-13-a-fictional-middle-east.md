@@ -1,9 +1,9 @@
 ---
 layout: post
 title: A Fictional Middle East
-categories: yak-shaving
-project_id: yak-shaving
-project_title: Yak Shaving
+categories: misc
+project_id: misc
+project_title: Miscellaneous
 published: true
 ---
 

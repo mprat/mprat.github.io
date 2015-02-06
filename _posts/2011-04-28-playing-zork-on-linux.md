@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Playing Zork on Linux
-categories: yak-shaving
-project_id: yak-shaving
-project_title: Yak Shaving
+categories: misc
+project_id: misc
+project_title: Miscellaneous
 ---
 
 The inspiration behind Terminus, Zork, is a fantastic game. Here's a guide for how to set it up to play on your Linux machine (tested on Ubuntu >= 12.04). 
