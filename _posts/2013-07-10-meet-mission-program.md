@@ -7,7 +7,7 @@ project_title: MEET
 <!-- published: false -->
 ---
 
-As every MIT undergrad does, I was looking for something interesting to do with my summer. I knew I was going to be graduating in June and was looking for a'unique summer experience. I had already decided early in Fall 2012 (my fall semester senior year) that I would take a gap year between the end of my undergrad and the start of my MEng (Master's in Engineering) at MIT. But I wanted to kick off my year with the right summer experience - MEET was the answer.
+As every MIT undergrad does, I was looking for something interesting to do with my summer. I knew I was going to be graduating in June and was looking for a unique summer experience. I had already decided early in Fall 2012 (my fall semester senior year) that I would take a gap year between the end of my undergrad and the start of my MEng (Master's in Engineering) at MIT. But I wanted to kick off my year with the right summer experience - MEET was the answer.
 
 <!-- more --> 
 
