@@ -1,0 +1,16 @@
+{
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ], 
+    "settings":
+    {
+      "Jekyll":
+      {
+          "posts_path": "/Users/mprat/personal/repos/mprat.github.io/_posts/",
+          "drafts_path": "/Users/mprat/personal/repos/mprat.github.io/_drafts/",
+      }
+    }
+}
