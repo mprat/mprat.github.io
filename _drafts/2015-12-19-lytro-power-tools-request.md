@@ -1,0 +1,10 @@
+Lytro Power Tools Request
+
+OK, now to the good stuff. Tell us a little about your project idea. What do you hope to do with these tools? *
+
+The first generation Lytro Camera is great at capturing small square images that can be turned into living pictures. But the world is more than square frames. Playing with this camera for a day, I was put in a few situations where I would have loved to compose a living picture panorama, or a depth field panorama shot. With full control over the light field images, I want to be able to compose multiple light field images into one, whether that is in the form of panoramas, worlds, or photo spheres. Combined with tools like Google Cardboard (and Oculus, etc.), the experience of living photos can be brought to a whole new level.
+
+
+Tell us a little about yourself and your background. *
+
+I graduated from MIT with a BS and later MEng in Computer Science. My focus in undergrad was on computer vision and computer graphics. I worked on a few research projects related to vision, deep learning, and point cloud photography. My advisor for my senior project was Professor Fredo Durand, and I worked on using point cloud information captured from a smartphone to align images taken at different points in time. The result was an iOS app that could do "re-photography", or automatically take the same photo as you had taken previously with the app. While it wasn't App-Store-worthy, it was a foray into computational photography. In my master's work, I worked mostly in deep learning computer vision applications, but am still occassionally playing around with photography, videos, and other computational photography techniques. I like implementing things from the ground up, or at least understanding how they work. My languages of choice are Python and C++. You can find me on the internet here: http://mprat.org, http://github.com/mprat, and https://www.flickr.com/photos/mpratland/.
