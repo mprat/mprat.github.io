@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Exporting Inkscape Text to LaTeX Format
-categories: projects mit
-project_id: mit
-project_title: MIT miscellaneous
+categories: misc
+project_id: misc
+project_title: Miscellaneous
 published: true
 ---
 

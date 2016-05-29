@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Installing Zim Wiki on OSX
-categories: misc
-project_id: misc
+categories: blog
+project_id: blog
 project_title: Miscellaneous
 published: true
 ---

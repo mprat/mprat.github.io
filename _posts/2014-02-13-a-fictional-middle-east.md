@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A Fictional Middle East
-categories: misc
-project_id: misc
+categories: blog
+project_id: blog
 project_title: Miscellaneous
 published: true
 ---

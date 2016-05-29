@@ -1,9 +1,9 @@
 ---
 layout: post
 title: MIT Graduation Cap
-categories: projects mit
-project_id: mit
-project_title: MIT miscellaneous
+categories: blog
+project_id: blog
+project_title: Miscellaneous
 ---
 
 MIT has many [interesting traditions](http://old.mitadmissions.org/topics/life/hacks_traditions/). But my personal favorite is the tradition of MIT's graduation hats. I had a lot of fun with this tradition, especially given the weather.

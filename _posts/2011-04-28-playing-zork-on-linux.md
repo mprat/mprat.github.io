@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Playing Zork on Linux
-categories: misc
-project_id: misc
+categories: blog
+project_id: blog
 project_title: Miscellaneous
 ---
 
