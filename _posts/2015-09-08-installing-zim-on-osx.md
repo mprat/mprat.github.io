@@ -18,6 +18,7 @@ After using a Linux computer for 5 years, my work environment changed and I am n
 I took much of my inspiration from the [Gnome-wiki page on building GTK for OSX](https://wiki.gnome.org/action/show//Projects/GTK+/OSX/Building?action=show&redirect=GTK%2B%2FOSX%2FBuilding) and someone's [earlier blog post for how to package Zim as an app on OSX](http://docs.gz.ro/node/183)
 
 My setup:
+
 * OSX Yosemite 10.10.3
 * Zim 0.63
 * Anaconda Python
