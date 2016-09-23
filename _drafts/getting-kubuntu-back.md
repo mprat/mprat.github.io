@@ -11,3 +11,4 @@ published: false
 * yakuake
 * plasma 5 is great
 * has Dropbox tray icon, where it didn't exist in Kubuntu 14.04
+* made a rake file

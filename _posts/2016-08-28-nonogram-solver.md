@@ -27,4 +27,4 @@ And here is the filled in solution:
 
 #### Writing a Solver in Python
 
-To write a solver for a nonogram in Python, the first step was to 
+To write a solver for a nonogram in Python, the first step was to
