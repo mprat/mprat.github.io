@@ -91,4 +91,6 @@ To figure out the configurations used in `nbconvert`, I used the following refer
 * [`nbconvert` documentation](https://nbconvert.readthedocs.io/en/latest/)
 * [`nbconvert` source code](https://github.com/jupyter/nbconvert/tree/master/nbconvert)
 
+If you want to check out my entire Jekyll configuration, feel free to poke around the [Learning Julia repository on Github](http://github.com/mprat/learningjulia).
+
 Hope this helps!
