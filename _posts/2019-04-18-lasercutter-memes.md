@@ -7,7 +7,7 @@ project_title: Miscellaneous
 published: true
 ---
 
-I recently got trained on the lasercutter at [Artisan's Asylum](http://artisansasylum.com/) and wanted to do a project! Thankfully, my friend [Emilie](https://www.emiliejosephs.com/) had just the project.
+I recently got trained on the lasercutter at [Artisan's Asylum](http://artisansasylum.com/) and wanted to do a project! Thankfully, my friend [Emilie](https://www.emiliejosephs.com/) had just the thing.
 
 <!-- more -->
 
