@@ -13,7 +13,7 @@ comments: true
 kramdown:
   input: GFM
   hard_wrap: false
-gems:
+plugins:
   - jekyll-coffeescript
   - jekyll-gist
   - jekyll-mentions
