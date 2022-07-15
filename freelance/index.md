@@ -4,7 +4,7 @@ title: Freelance
 meta_content: freelance and consulting information
 ---
 
-I am available for freelance engineering work or hourly consulting. Please reach out via email (mprat@alum.mit.edu) or LinkedIn, and I will get back to you promptly.
+I am available for freelance engineering work or hourly consulting. Please reach out via email (mprat@alum.mit.edu) or LinkedIn, and I will get back to you promptly. Free get-to-know-you conversation, but paid hourly if on a regular or intermittent basis (rate negotiable).
 
 Hourly consulting is geared towards software engineering leaders interested in brainstorming solutions to software systems problems. As the first software hire at Root AI (who then got acquired by AppHarvest two years later) I designed and built the software (and firmware) systems powering an autonomous mobile robot. I collaborated across disciplines (electrical, mechanical, product) to solidify requirements and deliverables at all stages: prototype, fundraise, deployment. As the team grew, the software system I designed was used (and modified where needed) to task software, firmware, machine learning, deployment, mechanical, and electrical teams to improve the system at all levels. Multiple robots were deployed around the world in multiple locations. I served as the director of software and autonomous systems, overseeing a team of 5 engineers, before I left the company.
 
